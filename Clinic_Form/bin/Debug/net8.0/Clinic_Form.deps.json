@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Clinic_Form/1.0.0": {
+        "runtime": {
+          "Clinic_Form.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clinic_Form/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

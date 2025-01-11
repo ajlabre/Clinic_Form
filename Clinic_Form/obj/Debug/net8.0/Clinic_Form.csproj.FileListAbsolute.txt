@@ -1,0 +1,14 @@
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\bin\Debug\net8.0\Clinic_Form.exe
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\bin\Debug\net8.0\Clinic_Form.deps.json
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\bin\Debug\net8.0\Clinic_Form.runtimeconfig.json
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\bin\Debug\net8.0\Clinic_Form.dll
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\bin\Debug\net8.0\Clinic_Form.pdb
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.GeneratedMSBuildEditorConfig.editorconfig
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.AssemblyInfoInputs.cache
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.AssemblyInfo.cs
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.csproj.CoreCompileInputs.cache
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.dll
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\refint\Clinic_Form.dll
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.pdb
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.genruntimeconfig.cache
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\ref\Clinic_Form.dll
