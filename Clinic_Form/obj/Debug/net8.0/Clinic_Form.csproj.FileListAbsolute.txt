@@ -12,3 +12,18 @@ D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitH
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.pdb
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\Clinic_Form.genruntimeconfig.cache
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_Form\Clinic_Form\obj\Debug\net8.0\ref\Clinic_Form.dll
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\bin\Debug\net8.0\Clinic_Form.exe
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\bin\Debug\net8.0\Clinic_Form.deps.json
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\bin\Debug\net8.0\Clinic_Form.runtimeconfig.json
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\bin\Debug\net8.0\Clinic_Form.dll
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\bin\Debug\net8.0\Clinic_Form.pdb
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.AssemblyInfoInputs.cache
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.AssemblyInfo.cs
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.csproj.CoreCompileInputs.cache
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.sourcelink.json
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.dll
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\refint\Clinic_Form.dll
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.pdb
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.genruntimeconfig.cache
+C:\Users\PUP-CITE-L1PC25\source\repos\LABRE\Clinic_Form\obj\Debug\net8.0\ref\Clinic_Form.dll

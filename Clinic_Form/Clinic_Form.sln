@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic_Form", "Clinic_Form.csproj", "{DF637F6F-5453-4701-9ABB-475315C4AB6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic_Window_Form", "..\Clinic_Window_Form\Clinic_Window_Form.csproj", "{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DF637F6F-5453-4701-9ABB-475315C4AB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF637F6F-5453-4701-9ABB-475315C4AB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF637F6F-5453-4701-9ABB-475315C4AB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
