@@ -55,7 +55,7 @@
             label13 = new Label();
             textBox9 = new TextBox();
             comboBox1 = new ComboBox();
-            button1 = new Button();
+            btnCONFIRMFORM = new Button();
             label14 = new Label();
             textBox5 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -210,6 +210,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(261, 23);
             textBox1.TabIndex = 18;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -334,17 +335,17 @@
             comboBox1.Text = "Please Select.";
             comboBox1.UseWaitCursor = true;
             // 
-            // button1
+            // btnCONFIRMFORM
             // 
-            button1.BackColor = SystemColors.GradientActiveCaption;
-            button1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlText;
-            button1.Location = new Point(477, 559);
-            button1.Name = "button1";
-            button1.Size = new Size(143, 30);
-            button1.TabIndex = 33;
-            button1.Text = "CONFIRM";
-            button1.UseVisualStyleBackColor = false;
+            btnCONFIRMFORM.BackColor = SystemColors.GradientActiveCaption;
+            btnCONFIRMFORM.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCONFIRMFORM.ForeColor = SystemColors.ControlText;
+            btnCONFIRMFORM.Location = new Point(477, 559);
+            btnCONFIRMFORM.Name = "btnCONFIRMFORM";
+            btnCONFIRMFORM.Size = new Size(143, 30);
+            btnCONFIRMFORM.TabIndex = 33;
+            btnCONFIRMFORM.Text = "CONFIRM";
+            btnCONFIRMFORM.UseVisualStyleBackColor = false;
             // 
             // label14
             // 
@@ -373,7 +374,7 @@
             ClientSize = new Size(654, 627);
             Controls.Add(textBox5);
             Controls.Add(label14);
-            Controls.Add(button1);
+            Controls.Add(btnCONFIRMFORM);
             Controls.Add(comboBox1);
             Controls.Add(label13);
             Controls.Add(textBox9);
@@ -436,7 +437,7 @@
         private Label label13;
         private TextBox textBox9;
         private ComboBox comboBox1;
-        private Button button1;
+        private Button btnCONFIRMFORM;
         private Label label14;
         private TextBox textBox5;
     }

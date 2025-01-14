@@ -87,6 +87,7 @@
             button1.TabIndex = 11;
             button1.Text = "MAIN MENU";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // listView1
             // 

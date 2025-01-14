@@ -32,8 +32,8 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label3 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            btnVIEWFORM = new Button();
+            btnMAINMENU = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -70,27 +70,27 @@
             label3.Text = "Thank you for filling the form. Proceed to wait for your turn";
             label3.Click += label3_Click;
             // 
-            // button1
+            // btnVIEWFORM
             // 
-            button1.BackColor = SystemColors.GradientActiveCaption;
-            button1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.Location = new Point(409, 185);
-            button1.Name = "button1";
-            button1.Size = new Size(147, 33);
-            button1.TabIndex = 10;
-            button1.Text = "VIEW FORM";
-            button1.UseVisualStyleBackColor = false;
+            btnVIEWFORM.BackColor = SystemColors.GradientActiveCaption;
+            btnVIEWFORM.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnVIEWFORM.Location = new Point(409, 185);
+            btnVIEWFORM.Name = "btnVIEWFORM";
+            btnVIEWFORM.Size = new Size(147, 33);
+            btnVIEWFORM.TabIndex = 10;
+            btnVIEWFORM.Text = "VIEW FORM";
+            btnVIEWFORM.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnMAINMENU
             // 
-            button2.BackColor = SystemColors.GradientActiveCaption;
-            button2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button2.Location = new Point(235, 185);
-            button2.Name = "button2";
-            button2.Size = new Size(152, 33);
-            button2.TabIndex = 11;
-            button2.Text = "MAIN MENU";
-            button2.UseVisualStyleBackColor = false;
+            btnMAINMENU.BackColor = SystemColors.GradientActiveCaption;
+            btnMAINMENU.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnMAINMENU.Location = new Point(235, 185);
+            btnMAINMENU.Name = "btnMAINMENU";
+            btnMAINMENU.Size = new Size(152, 33);
+            btnMAINMENU.TabIndex = 11;
+            btnMAINMENU.Text = "MAIN MENU";
+            btnMAINMENU.UseVisualStyleBackColor = false;
             // 
             // Form3
             // 
@@ -98,8 +98,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(588, 241);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnMAINMENU);
+            Controls.Add(btnVIEWFORM);
             Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -115,7 +115,7 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label3;
-        private Button button1;
-        private Button button2;
+        private Button btnVIEWFORM;
+        private Button btnMAINMENU;
     }
 }

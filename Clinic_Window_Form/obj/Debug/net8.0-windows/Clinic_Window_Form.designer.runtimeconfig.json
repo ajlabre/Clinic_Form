@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\PUP-CITE-L1PC25\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\PUP-CITE-L1PC25\\.nuget\\packages",
+      "C:\\Users\\PUP-CITE-L2PC25\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PUP-CITE-L2PC25\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

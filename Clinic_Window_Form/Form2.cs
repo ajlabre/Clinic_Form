@@ -41,5 +41,10 @@ namespace Clinic_Window_Form
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PUP-CITE-L1PC25\\source\\repos\\LABRE\\Clinic_Form\\Clinic_Form.csproj": {}
+    "C:\\Users\\PUP-CITE-L2PC25\\Documents\\LABRE_DIT 3-1 VSCODE\\Clinic_Form\\Clinic_Form.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PUP-CITE-L1PC25\\source\\repos\\LABRE\\Clinic_Form\\Clinic_Form.csproj": {
+    "C:\\Users\\PUP-CITE-L2PC25\\Documents\\LABRE_DIT 3-1 VSCODE\\Clinic_Form\\Clinic_Form.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PUP-CITE-L1PC25\\source\\repos\\LABRE\\Clinic_Form\\Clinic_Form.csproj",
+        "projectUniqueName": "C:\\Users\\PUP-CITE-L2PC25\\Documents\\LABRE_DIT 3-1 VSCODE\\Clinic_Form\\Clinic_Form.csproj",
         "projectName": "Clinic_Form",
-        "projectPath": "C:\\Users\\PUP-CITE-L1PC25\\source\\repos\\LABRE\\Clinic_Form\\Clinic_Form.csproj",
-        "packagesPath": "C:\\Users\\PUP-CITE-L1PC25\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PUP-CITE-L1PC25\\source\\repos\\LABRE\\Clinic_Form\\obj\\",
+        "projectPath": "C:\\Users\\PUP-CITE-L2PC25\\Documents\\LABRE_DIT 3-1 VSCODE\\Clinic_Form\\Clinic_Form.csproj",
+        "packagesPath": "C:\\Users\\PUP-CITE-L2PC25\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PUP-CITE-L2PC25\\Documents\\LABRE_DIT 3-1 VSCODE\\Clinic_Form\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PUP-CITE-L1PC25\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PUP-CITE-L2PC25\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
