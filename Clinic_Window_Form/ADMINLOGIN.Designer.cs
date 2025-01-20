@@ -29,35 +29,35 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ADMINLOGIN));
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
+            ClinicImage = new PictureBox();
+            lblConsultationForm = new Label();
             lblusername = new Label();
             lblPIN = new Label();
             txtboxUsername = new TextBox();
             txtboxPin = new TextBox();
             btnCONFIRMADMIN = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // ClinicImage
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(11, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(57, 61);
-            pictureBox1.TabIndex = 10;
-            pictureBox1.TabStop = false;
+            ClinicImage.Image = (Image)resources.GetObject("ClinicImage.Image");
+            ClinicImage.Location = new Point(11, 12);
+            ClinicImage.Name = "ClinicImage";
+            ClinicImage.Size = new Size(57, 61);
+            ClinicImage.TabIndex = 10;
+            ClinicImage.TabStop = false;
             // 
-            // label1
+            // lblConsultationForm
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Franklin Gothic Book", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkBlue;
-            label1.Location = new Point(74, 21);
-            label1.Name = "label1";
-            label1.Size = new Size(401, 37);
-            label1.TabIndex = 9;
-            label1.Text = "CLINIC CONSULTATION FORM";
+            lblConsultationForm.AutoSize = true;
+            lblConsultationForm.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblConsultationForm.ForeColor = Color.DarkBlue;
+            lblConsultationForm.Location = new Point(74, 21);
+            lblConsultationForm.Name = "lblConsultationForm";
+            lblConsultationForm.Size = new Size(464, 33);
+            lblConsultationForm.TabIndex = 9;
+            lblConsultationForm.Text = "CLINIC CONSULTATION FORM";
             // 
             // lblusername
             // 
@@ -107,6 +107,7 @@
             btnCONFIRMADMIN.TabIndex = 34;
             btnCONFIRMADMIN.Text = "CONFIRM";
             btnCONFIRMADMIN.UseVisualStyleBackColor = false;
+            btnCONFIRMADMIN.Click += btnCONFIRMADMIN_Click;
             // 
             // ADMINLOGIN
             // 
@@ -119,19 +120,19 @@
             Controls.Add(txtboxUsername);
             Controls.Add(lblPIN);
             Controls.Add(lblusername);
-            Controls.Add(pictureBox1);
-            Controls.Add(label1);
+            Controls.Add(ClinicImage);
+            Controls.Add(lblConsultationForm);
             Name = "ADMINLOGIN";
             Text = "ADMINLOGIN";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private Label label1;
+        private PictureBox ClinicImage;
+        private Label lblConsultationForm;
         private Label lblusername;
         private Label lblPIN;
         private TextBox txtboxUsername;

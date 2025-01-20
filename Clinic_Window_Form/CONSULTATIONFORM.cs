@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Clinic_Window_Form
 {
-    public partial class Form2 : Form
+    public partial class ConsultationForm : Form
     {
-        public Form2()
+        public ConsultationForm()
         {
             InitializeComponent();
         }
@@ -45,6 +45,20 @@ namespace Clinic_Window_Form
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCONFIRMFORM_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Client succesfully registered.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            ADMINCLIENTMENU AdminClient = new ADMINCLIENTMENU();
+            AdminClient.Show();
+            Hide();
         }
     }
 }

@@ -19,7 +19,7 @@ namespace Clinic_Window_Form
 
         private void btnNEXTMAINMENU_Click(object sender, EventArgs e)
         {
-            Form2 Consultationfrm = new Form2();
+            ConsultationForm Consultationfrm = new ConsultationForm();
             Consultationfrm.Show();
             Hide();
         }
@@ -42,6 +42,16 @@ namespace Clinic_Window_Form
         }
 
         private void WELCOMEFORMMENU_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNext_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCancel_Click(object sender, EventArgs e)
         {
 
         }

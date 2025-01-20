@@ -33,8 +33,8 @@
             label1 = new Label();
             monthCalendar1 = new MonthCalendar();
             label3 = new Label();
-            button1 = new Button();
             listView1 = new ListView();
+            btnMainMenu = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -50,11 +50,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Franklin Gothic Book", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkBlue;
             label1.Location = new Point(79, 22);
             label1.Name = "label1";
-            label1.Size = new Size(401, 37);
+            label1.Size = new Size(464, 33);
             label1.TabIndex = 5;
             label1.Text = "CLINIC CONSULTATION FORM";
             // 
@@ -77,18 +77,6 @@
             label3.TabIndex = 10;
             label3.Text = "CONSULTATION RECORDS";
             // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.GradientActiveCaption;
-            button1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.Location = new Point(640, 187);
-            button1.Name = "button1";
-            button1.Size = new Size(148, 34);
-            button1.TabIndex = 11;
-            button1.Text = "MAIN MENU";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
             // listView1
             // 
             listView1.Location = new Point(21, 124);
@@ -97,14 +85,26 @@
             listView1.TabIndex = 12;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
+            // btnMainMenu
+            // 
+            btnMainMenu.BackColor = SystemColors.GradientActiveCaption;
+            btnMainMenu.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnMainMenu.Location = new Point(640, 187);
+            btnMainMenu.Name = "btnMainMenu";
+            btnMainMenu.Size = new Size(148, 34);
+            btnMainMenu.TabIndex = 13;
+            btnMainMenu.Text = "MAIN MENU";
+            btnMainMenu.UseVisualStyleBackColor = false;
+            btnMainMenu.Click += btnMainMenu_Click;
+            // 
             // VIEWFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnMainMenu);
             Controls.Add(listView1);
-            Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(monthCalendar1);
             Controls.Add(pictureBox1);
@@ -122,7 +122,7 @@
         private Label label1;
         private MonthCalendar monthCalendar1;
         private Label label3;
-        private Button button1;
         private ListView listView1;
+        private Button btnMainMenu;
     }
 }

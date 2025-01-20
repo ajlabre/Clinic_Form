@@ -21,5 +21,14 @@ namespace Clinic_Window_Form
         {
 
         }
+
+        private void btnCONFIRMADMIN_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Admin confirmed successfully!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            VIEWFORM viewForm = new VIEWFORM();
+            viewForm.Show();
+            Hide();
+        }
     }
 }

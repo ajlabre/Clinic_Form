@@ -22,9 +22,13 @@ namespace Clinic_Window_Form
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnMainMenu_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Logged out of Admin.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
+            ADMINCLIENTMENU AdminClient = new ADMINCLIENTMENU();
+            AdminClient.Show();
+            Hide();
         }
     }
 }

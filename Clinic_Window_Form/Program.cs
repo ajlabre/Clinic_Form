@@ -6,7 +6,7 @@ namespace Clinic_Window_Form
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new WELCOMEFORMMENU());
+            Application.Run(new ADMINCLIENTMENU());
         }
     }
 }

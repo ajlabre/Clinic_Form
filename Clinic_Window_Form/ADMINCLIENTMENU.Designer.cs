@@ -30,42 +30,42 @@ namespace Clinic_Window_Form
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ADMINCLIENTMENU));
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
+            ClinicImage = new PictureBox();
+            lblConsultationForm = new Label();
             qstnAdmin = new Label();
             btnVIEW = new Button();
             btnREGISTER = new Button();
             qstnClient = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // ClinicImage
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(14, 16);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(57, 61);
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            ClinicImage.Image = (Image)resources.GetObject("ClinicImage.Image");
+            ClinicImage.Location = new Point(14, 16);
+            ClinicImage.Name = "ClinicImage";
+            ClinicImage.Size = new Size(57, 61);
+            ClinicImage.TabIndex = 8;
+            ClinicImage.TabStop = false;
+            ClinicImage.Click += pictureBox1_Click;
             // 
-            // label1
+            // lblConsultationForm
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Franklin Gothic Book", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkBlue;
-            label1.Location = new Point(77, 25);
-            label1.Name = "label1";
-            label1.Size = new Size(401, 37);
-            label1.TabIndex = 7;
-            label1.Text = "CLINIC CONSULTATION FORM";
+            lblConsultationForm.AutoSize = true;
+            lblConsultationForm.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblConsultationForm.ForeColor = Color.DarkBlue;
+            lblConsultationForm.Location = new Point(77, 25);
+            lblConsultationForm.Name = "lblConsultationForm";
+            lblConsultationForm.Size = new Size(464, 33);
+            lblConsultationForm.TabIndex = 7;
+            lblConsultationForm.Text = "CLINIC CONSULTATION FORM";
             // 
             // qstnAdmin
             // 
             qstnAdmin.AutoSize = true;
             qstnAdmin.BackColor = SystemColors.GradientInactiveCaption;
             qstnAdmin.Font = new Font("Cambria", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            qstnAdmin.Location = new Point(75, 143);
+            qstnAdmin.Location = new Point(99, 145);
             qstnAdmin.Name = "qstnAdmin";
             qstnAdmin.Size = new Size(145, 17);
             qstnAdmin.TabIndex = 9;
@@ -76,7 +76,7 @@ namespace Clinic_Window_Form
             // 
             btnVIEW.BackColor = SystemColors.GradientActiveCaption;
             btnVIEW.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnVIEW.Location = new Point(66, 98);
+            btnVIEW.Location = new Point(90, 100);
             btnVIEW.Name = "btnVIEW";
             btnVIEW.Size = new Size(163, 32);
             btnVIEW.TabIndex = 10;
@@ -88,7 +88,7 @@ namespace Clinic_Window_Form
             // 
             btnREGISTER.BackColor = SystemColors.GradientActiveCaption;
             btnREGISTER.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnREGISTER.Location = new Point(305, 98);
+            btnREGISTER.Location = new Point(329, 100);
             btnREGISTER.Name = "btnREGISTER";
             btnREGISTER.Size = new Size(151, 32);
             btnREGISTER.TabIndex = 12;
@@ -101,7 +101,7 @@ namespace Clinic_Window_Form
             qstnClient.AutoSize = true;
             qstnClient.BackColor = SystemColors.GradientInactiveCaption;
             qstnClient.Font = new Font("Cambria", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            qstnClient.Location = new Point(317, 143);
+            qstnClient.Location = new Point(341, 145);
             qstnClient.Name = "qstnClient";
             qstnClient.Size = new Size(129, 17);
             qstnClient.TabIndex = 11;
@@ -113,17 +113,17 @@ namespace Clinic_Window_Form
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(517, 214);
+            ClientSize = new Size(563, 214);
             Controls.Add(btnREGISTER);
             Controls.Add(qstnClient);
             Controls.Add(btnVIEW);
             Controls.Add(qstnAdmin);
-            Controls.Add(pictureBox1);
-            Controls.Add(label1);
+            Controls.Add(ClinicImage);
+            Controls.Add(lblConsultationForm);
             Name = "ADMINCLIENTMENU";
             Text = "MAIN MENU ";
             Load += ADMINCLIENTMENU_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -135,8 +135,8 @@ namespace Clinic_Window_Form
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private Label label1;
+        private PictureBox ClinicImage;
+        private Label lblConsultationForm;
         private Label qstnAdmin;
         private Button btnVIEW;
         private Button btnREGISTER;
