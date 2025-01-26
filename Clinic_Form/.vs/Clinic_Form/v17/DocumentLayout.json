@@ -3,10 +3,37 @@
   "WorkspaceRootPath": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Form\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\consultationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminclientmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminclientmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\registeradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\registeradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\registeradmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\consultationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\consultationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\viewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -18,22 +45,7 @@
       "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\welcomeformmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminclientmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\welcomeformmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminclientmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}|..\\Clinic_Window_Form\\Clinic_Window_Form.csproj|d:\\one drive\\onedrive - polytechnic university of the philippines\\documents\\github\\clinic_consultationform\\clinic_window_form\\viewform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 324,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,65 +93,21 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CONSULTATIONFORM.cs",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:37:55.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ADMINCLIENTMENU.cs",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:38:56.189Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VIEWFORM.cs",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\VIEWFORM.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\VIEWFORM.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\VIEWFORM.cs",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\VIEWFORM.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwEQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:08:04.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WELCOMEFORMMENU.cs",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswB4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:38:03.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ADMINLOGIN.cs",
               "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINLOGIN.cs",
               "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINLOGIN.cs",
               "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINLOGIN.cs",
               "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINLOGIN.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:54:48.497Z"
+              "WhenOpened": "2025-01-26T12:54:48.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,7 +123,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "REGISTERADMIN.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\REGISTERADMIN.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\REGISTERADMIN.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\REGISTERADMIN.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\REGISTERADMIN.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:08:54.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CONSULTATIONFORM.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:37:55.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ADMINCLIENTMENU.cs [Design]",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs [Design]",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:22:43.082Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ADMINLOGIN.cs [Design]",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINLOGIN.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINLOGIN.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINLOGIN.cs [Design]",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINLOGIN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:22:42.394Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ADMINCLIENTMENU.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:38:56.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminRegister.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\AdminRegister.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\AdminRegister.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\AdminRegister.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\AdminRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:13:18.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "REGISTERADMIN.Designer.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\REGISTERADMIN.Designer.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\REGISTERADMIN.Designer.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\REGISTERADMIN.Designer.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\REGISTERADMIN.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:09:23.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "VIEWFORM.Designer.cs",
               "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\VIEWFORM.Designer.cs",
               "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\VIEWFORM.Designer.cs",
@@ -166,12 +221,60 @@
               "WhenOpened": "2025-01-26T11:51:46.045Z"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WELCOMEFORMMENU.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswB4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:38:03.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VIEWFORM.cs",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\VIEWFORM.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\VIEWFORM.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\VIEWFORM.cs",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\VIEWFORM.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T12:08:04.618Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "CONSULTATIONFORM.cs [Design]",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs [Design]",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:23:32.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "REGISTERADMIN.cs [Design]",
+              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\REGISTERADMIN.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\REGISTERADMIN.cs",
+              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\REGISTERADMIN.cs [Design]",
+              "RelativeToolTip": "..\\Clinic_Window_Form\\REGISTERADMIN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:03:46.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "VIEWFORM.cs [Design]",
               "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\VIEWFORM.cs",
               "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\VIEWFORM.cs",
@@ -182,19 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CONSULTATIONFORM.cs [Design]",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\CONSULTATIONFORM.cs [Design]",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\CONSULTATIONFORM.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:23:32.009Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "WELCOMEFORMMENU.cs [Design]",
               "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
               "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\WELCOMEFORMMENU.cs",
@@ -202,28 +293,6 @@
               "RelativeToolTip": "..\\Clinic_Window_Form\\WELCOMEFORMMENU.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T13:22:38.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ADMINCLIENTMENU.cs [Design]",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINCLIENTMENU.cs [Design]",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINCLIENTMENU.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:22:43.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ADMINLOGIN.cs [Design]",
-              "DocumentMoniker": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINLOGIN.cs",
-              "RelativeDocumentMoniker": "..\\Clinic_Window_Form\\ADMINLOGIN.cs",
-              "ToolTip": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\ADMINLOGIN.cs [Design]",
-              "RelativeToolTip": "..\\Clinic_Window_Form\\ADMINLOGIN.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:22:42.394Z"
             }
           ]
         }

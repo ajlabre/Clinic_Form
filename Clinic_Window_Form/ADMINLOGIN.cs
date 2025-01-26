@@ -24,11 +24,29 @@ namespace Clinic_Window_Form
 
         private void btnCONFIRMADMIN_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Admin confirmed successfully!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string username = txtboxUsername.Text;
+            string password = txtboxPin.Text;
 
-            VIEWFORM viewForm = new VIEWFORM();
-            viewForm.Show();
-            Hide();
+            if (username == AdminRegister.Username && password == AdminRegister.Password)
+            {
+                MessageBox.Show("Admin confirmed successfully!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                VIEWFORM viewForm = new VIEWFORM();
+                viewForm.Show();
+                Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
+                AdminClientMenu.Show();
+                Hide();
+            }
+
+            //ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
+            //AdminClientMenu.Show();
+            //Hide();
         }
 
         private void txtboxUsername_TextChanged(object sender, EventArgs e)
@@ -39,6 +57,13 @@ namespace Clinic_Window_Form
         private void txtboxPin_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
+            AdminClientMenu.Show();
+            Hide();
         }
     }
 }

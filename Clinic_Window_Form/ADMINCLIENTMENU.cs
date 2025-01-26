@@ -50,5 +50,12 @@ namespace Clinic_Window_Form
         {
 
         }
+
+        private void btnRegisterAdmin_Click(object sender, EventArgs e)
+        {
+            REGISTERADMIN RegisterAdmin = new REGISTERADMIN();
+            RegisterAdmin.Show();
+            Hide();
+        }
     }
 }

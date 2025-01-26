@@ -64,3 +64,4 @@ D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitH
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.pdb
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.genruntimeconfig.cache
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\ref\Clinic_Window_Form.dll
+D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.REGISTERADMIN.resources

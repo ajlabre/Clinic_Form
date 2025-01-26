@@ -36,6 +36,7 @@
             txtboxUsername = new TextBox();
             txtboxPin = new TextBox();
             btnCONFIRMADMIN = new Button();
+            btnCancel = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -103,7 +104,7 @@
             btnCONFIRMADMIN.BackColor = SystemColors.GradientActiveCaption;
             btnCONFIRMADMIN.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnCONFIRMADMIN.ForeColor = SystemColors.ControlText;
-            btnCONFIRMADMIN.Location = new Point(403, 157);
+            btnCONFIRMADMIN.Location = new Point(403, 165);
             btnCONFIRMADMIN.Name = "btnCONFIRMADMIN";
             btnCONFIRMADMIN.Size = new Size(143, 30);
             btnCONFIRMADMIN.TabIndex = 34;
@@ -111,12 +112,26 @@
             btnCONFIRMADMIN.UseVisualStyleBackColor = false;
             btnCONFIRMADMIN.Click += btnCONFIRMADMIN_Click;
             // 
+            // btnCancel
+            // 
+            btnCancel.BackColor = SystemColors.GradientActiveCaption;
+            btnCancel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCancel.ForeColor = SystemColors.ControlText;
+            btnCancel.Location = new Point(22, 165);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(143, 30);
+            btnCancel.TabIndex = 44;
+            btnCancel.Text = "CANCEL";
+            btnCancel.UseVisualStyleBackColor = false;
+            btnCancel.Click += btnCancel_Click;
+            // 
             // ADMINLOGIN
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(558, 201);
+            ClientSize = new Size(558, 207);
+            Controls.Add(btnCancel);
             Controls.Add(btnCONFIRMADMIN);
             Controls.Add(txtboxPin);
             Controls.Add(txtboxUsername);
@@ -140,5 +155,6 @@
         private TextBox txtboxUsername;
         private TextBox txtboxPin;
         private Button btnCONFIRMADMIN;
+        private Button btnCancel;
     }
 }
