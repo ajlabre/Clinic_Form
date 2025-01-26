@@ -36,17 +36,17 @@
             btnMainMenu = new Button();
             btnEdit = new Button();
             btnDelete = new Button();
-            txtboxFullName = new DataGridViewTextBoxColumn();
-            txtboxHouseNo = new DataGridViewTextBoxColumn();
-            txtboxVillageSubd = new DataGridViewTextBoxColumn();
-            txtboxStreet = new DataGridViewTextBoxColumn();
-            txtboxBrgy = new DataGridViewTextBoxColumn();
-            cmbGender = new DataGridViewButtonColumn();
-            DatePickerBirthdate = new DataGridViewTextBoxColumn();
-            txtboxEmailAdd = new DataGridViewTextBoxColumn();
-            txtboxMobileNum = new DataGridViewTextBoxColumn();
-            cmboxMedHistory = new DataGridViewComboBoxColumn();
             txtboxOthersMedHistory = new DataGridViewTextBoxColumn();
+            cmboxMedHistory = new DataGridViewComboBoxColumn();
+            txtboxMobileNum = new DataGridViewTextBoxColumn();
+            txtboxEmailAdd = new DataGridViewTextBoxColumn();
+            DatePickerBirthdate = new DataGridViewTextBoxColumn();
+            cmbGender = new DataGridViewButtonColumn();
+            txtboxBrgy = new DataGridViewTextBoxColumn();
+            txtboxStreet = new DataGridViewTextBoxColumn();
+            txtboxVillageSubd = new DataGridViewTextBoxColumn();
+            txtboxHouseNo = new DataGridViewTextBoxColumn();
+            txtboxFullName = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -128,50 +128,10 @@
             btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
             // 
-            // txtboxFullName
+            // txtboxOthersMedHistory
             // 
-            txtboxFullName.HeaderText = "FullName";
-            txtboxFullName.Name = "txtboxFullName";
-            // 
-            // txtboxHouseNo
-            // 
-            txtboxHouseNo.HeaderText = "HouseNo";
-            txtboxHouseNo.Name = "txtboxHouseNo";
-            // 
-            // txtboxVillageSubd
-            // 
-            txtboxVillageSubd.HeaderText = "VillageSubd";
-            txtboxVillageSubd.Name = "txtboxVillageSubd";
-            // 
-            // txtboxStreet
-            // 
-            txtboxStreet.HeaderText = "Street";
-            txtboxStreet.Name = "txtboxStreet";
-            // 
-            // txtboxBrgy
-            // 
-            txtboxBrgy.HeaderText = "Brgy";
-            txtboxBrgy.Name = "txtboxBrgy";
-            // 
-            // cmbGender
-            // 
-            cmbGender.HeaderText = "Gender";
-            cmbGender.Name = "cmbGender";
-            // 
-            // DatePickerBirthdate
-            // 
-            DatePickerBirthdate.HeaderText = "Birthdate";
-            DatePickerBirthdate.Name = "DatePickerBirthdate";
-            // 
-            // txtboxEmailAdd
-            // 
-            txtboxEmailAdd.HeaderText = "Email";
-            txtboxEmailAdd.Name = "txtboxEmailAdd";
-            // 
-            // txtboxMobileNum
-            // 
-            txtboxMobileNum.HeaderText = "MobileNum";
-            txtboxMobileNum.Name = "txtboxMobileNum";
+            txtboxOthersMedHistory.HeaderText = "OthersMedHistory";
+            txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
             // 
             // cmboxMedHistory
             // 
@@ -180,10 +140,50 @@
             cmboxMedHistory.Resizable = DataGridViewTriState.True;
             cmboxMedHistory.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
-            // txtboxOthersMedHistory
+            // txtboxMobileNum
             // 
-            txtboxOthersMedHistory.HeaderText = "OthersMedHistory";
-            txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
+            txtboxMobileNum.HeaderText = "MobileNum";
+            txtboxMobileNum.Name = "txtboxMobileNum";
+            // 
+            // txtboxEmailAdd
+            // 
+            txtboxEmailAdd.HeaderText = "Email";
+            txtboxEmailAdd.Name = "txtboxEmailAdd";
+            // 
+            // DatePickerBirthdate
+            // 
+            DatePickerBirthdate.HeaderText = "Birthdate";
+            DatePickerBirthdate.Name = "DatePickerBirthdate";
+            // 
+            // cmbGender
+            // 
+            cmbGender.HeaderText = "Gender";
+            cmbGender.Name = "cmbGender";
+            // 
+            // txtboxBrgy
+            // 
+            txtboxBrgy.HeaderText = "Brgy";
+            txtboxBrgy.Name = "txtboxBrgy";
+            // 
+            // txtboxStreet
+            // 
+            txtboxStreet.HeaderText = "Street";
+            txtboxStreet.Name = "txtboxStreet";
+            // 
+            // txtboxVillageSubd
+            // 
+            txtboxVillageSubd.HeaderText = "VillageSubd";
+            txtboxVillageSubd.Name = "txtboxVillageSubd";
+            // 
+            // txtboxHouseNo
+            // 
+            txtboxHouseNo.HeaderText = "HouseNo";
+            txtboxHouseNo.Name = "txtboxHouseNo";
+            // 
+            // txtboxFullName
+            // 
+            txtboxFullName.HeaderText = "FullName";
+            txtboxFullName.Name = "txtboxFullName";
             // 
             // VIEWFORM
             // 

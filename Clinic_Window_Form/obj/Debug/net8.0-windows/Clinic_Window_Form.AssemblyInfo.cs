@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Clinic_Window_Form")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca816e48dee0d47d763bb88e70467cab53dcb31e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fef11b801caae08e636b54cbf15b2986a854bbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Clinic_Window_Form")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Clinic_Window_Form")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
