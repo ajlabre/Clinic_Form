@@ -33,8 +33,6 @@
             lblClinicConsultationForm = new Label();
             Calendar = new MonthCalendar();
             dataGridView1 = new DataGridView();
-            ID_Data = new DataGridViewTextBoxColumn();
-            FullName_Data = new DataGridViewTextBoxColumn();
             btnMainMenu = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -70,25 +68,12 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.GradientActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID_Data, FullName_Data });
             dataGridView1.GridColor = SystemColors.MenuHighlight;
             dataGridView1.Location = new Point(28, 107);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(509, 320);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // ID_Data
-            // 
-            ID_Data.HeaderText = "ID";
-            ID_Data.Name = "ID_Data";
-            ID_Data.ReadOnly = true;
-            // 
-            // FullName_Data
-            // 
-            FullName_Data.HeaderText = "Full Name";
-            FullName_Data.Name = "FullName_Data";
-            FullName_Data.ReadOnly = true;
             // 
             // btnMainMenu
             // 
@@ -129,8 +114,6 @@
         private Label lblClinicConsultationForm;
         private MonthCalendar Calendar;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn ID_Data;
-        private DataGridViewTextBoxColumn FullName_Data;
         private Button btnMainMenu;
     }
 }

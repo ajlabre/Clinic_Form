@@ -13,7 +13,7 @@ namespace Clinic_Window_Form
     public partial class VIEWFORM : Form
     {
         private DataTable dataInfo;
-        public VIEWFORM()
+        public VIEWFORM(List<string> ConsultationInfo)
         {
             InitializeComponent();
 
@@ -23,8 +23,16 @@ namespace Clinic_Window_Form
             dataInfo.Columns.Add("FullName", typeof(string));
 
             dataGridView1.DataSource = dataInfo;
-        }
 
+            AddDataToGrid(ConsultationInfo);
+        }
+        private void AddDataToGrid(List<string> data)
+        {
+            DataRow row = dataInfo.NewRow();
+            row["ID"] = int.Parse(data[0]);
+            row["FullName"] = data[1];
+            dataInfo.Rows.Add(row);
+        }
         private void VIEWFORM_Load(object sender, EventArgs e)
         {
 
