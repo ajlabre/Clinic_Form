@@ -29,70 +29,76 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VIEWFORM));
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
-            monthCalendar1 = new MonthCalendar();
-            label3 = new Label();
-            listView1 = new ListView();
+            ClinicImage = new PictureBox();
+            lblClinicConsultationForm = new Label();
+            Calendar = new MonthCalendar();
+            dataGridView1 = new DataGridView();
+            ID_Data = new DataGridViewTextBoxColumn();
+            FullName_Data = new DataGridViewTextBoxColumn();
             btnMainMenu = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // ClinicImage
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(16, 13);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(57, 61);
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
+            ClinicImage.Image = (Image)resources.GetObject("ClinicImage.Image");
+            ClinicImage.Location = new Point(20, 17);
+            ClinicImage.Name = "ClinicImage";
+            ClinicImage.Size = new Size(57, 61);
+            ClinicImage.TabIndex = 8;
+            ClinicImage.TabStop = false;
             // 
-            // label1
+            // lblClinicConsultationForm
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkBlue;
-            label1.Location = new Point(79, 22);
-            label1.Name = "label1";
-            label1.Size = new Size(464, 33);
-            label1.TabIndex = 5;
-            label1.Text = "CLINIC CONSULTATION FORM";
+            lblClinicConsultationForm.AutoSize = true;
+            lblClinicConsultationForm.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblClinicConsultationForm.ForeColor = Color.DarkBlue;
+            lblClinicConsultationForm.Location = new Point(83, 26);
+            lblClinicConsultationForm.Name = "lblClinicConsultationForm";
+            lblClinicConsultationForm.Size = new Size(464, 33);
+            lblClinicConsultationForm.TabIndex = 7;
+            lblClinicConsultationForm.Text = "CLINIC CONSULTATION FORM";
             // 
-            // monthCalendar1
+            // Calendar
             // 
-            monthCalendar1.BackColor = SystemColors.Window;
-            monthCalendar1.Location = new Point(564, 13);
-            monthCalendar1.Name = "monthCalendar1";
-            monthCalendar1.TabIndex = 7;
+            Calendar.Location = new Point(559, 18);
+            Calendar.Name = "Calendar";
+            Calendar.TabIndex = 9;
             // 
-            // label3
+            // dataGridView1
             // 
-            label3.AutoSize = true;
-            label3.BackColor = SystemColors.GradientInactiveCaption;
-            label3.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.ForeColor = SystemColors.ControlText;
-            label3.Location = new Point(16, 86);
-            label3.Name = "label3";
-            label3.Size = new Size(224, 22);
-            label3.TabIndex = 10;
-            label3.Text = "CONSULTATION RECORDS";
+            dataGridView1.BackgroundColor = SystemColors.GradientActiveCaption;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID_Data, FullName_Data });
+            dataGridView1.GridColor = SystemColors.MenuHighlight;
+            dataGridView1.Location = new Point(28, 107);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(509, 320);
+            dataGridView1.TabIndex = 10;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // listView1
+            // ID_Data
             // 
-            listView1.Location = new Point(21, 124);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(531, 304);
-            listView1.TabIndex = 12;
-            listView1.UseCompatibleStateImageBehavior = false;
+            ID_Data.HeaderText = "ID";
+            ID_Data.Name = "ID_Data";
+            ID_Data.ReadOnly = true;
+            // 
+            // FullName_Data
+            // 
+            FullName_Data.HeaderText = "Full Name";
+            FullName_Data.Name = "FullName_Data";
+            FullName_Data.ReadOnly = true;
             // 
             // btnMainMenu
             // 
             btnMainMenu.BackColor = SystemColors.GradientActiveCaption;
             btnMainMenu.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnMainMenu.Location = new Point(640, 187);
+            btnMainMenu.ForeColor = SystemColors.ControlText;
+            btnMainMenu.Location = new Point(559, 192);
             btnMainMenu.Name = "btnMainMenu";
-            btnMainMenu.Size = new Size(148, 34);
-            btnMainMenu.TabIndex = 13;
+            btnMainMenu.Size = new Size(227, 30);
+            btnMainMenu.TabIndex = 34;
             btnMainMenu.Text = "MAIN MENU";
             btnMainMenu.UseVisualStyleBackColor = false;
             btnMainMenu.Click += btnMainMenu_Click;
@@ -104,25 +110,27 @@
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
             Controls.Add(btnMainMenu);
-            Controls.Add(listView1);
-            Controls.Add(label3);
-            Controls.Add(monthCalendar1);
-            Controls.Add(pictureBox1);
-            Controls.Add(label1);
+            Controls.Add(dataGridView1);
+            Controls.Add(Calendar);
+            Controls.Add(ClinicImage);
+            Controls.Add(lblClinicConsultationForm);
             Name = "VIEWFORM";
-            Text = "CONSULTATION REPORT";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            Text = "VIEWFORM";
+            Load += VIEWFORM_Load;
+            ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private Label label1;
-        private MonthCalendar monthCalendar1;
-        private Label label3;
-        private ListView listView1;
+        private PictureBox ClinicImage;
+        private Label lblClinicConsultationForm;
+        private MonthCalendar Calendar;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn ID_Data;
+        private DataGridViewTextBoxColumn FullName_Data;
         private Button btnMainMenu;
     }
 }

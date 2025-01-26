@@ -30,5 +30,15 @@ namespace Clinic_Window_Form
             viewForm.Show();
             Hide();
         }
+
+        private void txtboxUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxPin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

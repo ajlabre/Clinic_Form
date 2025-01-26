@@ -88,6 +88,7 @@
             txtboxUsername.Name = "txtboxUsername";
             txtboxUsername.Size = new Size(216, 23);
             txtboxUsername.TabIndex = 13;
+            txtboxUsername.TextChanged += txtboxUsername_TextChanged;
             // 
             // txtboxPin
             // 
@@ -95,6 +96,7 @@
             txtboxPin.Name = "txtboxPin";
             txtboxPin.Size = new Size(216, 23);
             txtboxPin.TabIndex = 14;
+            txtboxPin.TextChanged += txtboxPin_TextChanged;
             // 
             // btnCONFIRMADMIN
             // 

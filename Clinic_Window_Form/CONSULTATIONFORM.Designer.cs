@@ -193,6 +193,7 @@
             rdbtnMale.TabStop = true;
             rdbtnMale.Text = "MALE";
             rdbtnMale.UseVisualStyleBackColor = true;
+            rdbtnMale.CheckedChanged += rdbtnMale_CheckedChanged;
             // 
             // DatePickerBirthdate
             // 
@@ -203,6 +204,7 @@
             DatePickerBirthdate.Name = "DatePickerBirthdate";
             DatePickerBirthdate.Size = new Size(261, 29);
             DatePickerBirthdate.TabIndex = 17;
+            DatePickerBirthdate.ValueChanged += DatePickerBirthdate_ValueChanged;
             // 
             // txtboxFullName
             // 
@@ -218,6 +220,7 @@
             txtboxHouseNo.Name = "txtboxHouseNo";
             txtboxHouseNo.Size = new Size(157, 23);
             txtboxHouseNo.TabIndex = 19;
+            txtboxHouseNo.TextChanged += txtboxHouseNo_TextChanged;
             // 
             // txtboxEmailAdd
             // 
@@ -225,6 +228,7 @@
             txtboxEmailAdd.Name = "txtboxEmailAdd";
             txtboxEmailAdd.Size = new Size(261, 23);
             txtboxEmailAdd.TabIndex = 20;
+            txtboxEmailAdd.TextChanged += txtboxEmailAdd_TextChanged;
             // 
             // txtboxMobileNum
             // 
@@ -232,6 +236,7 @@
             txtboxMobileNum.Name = "txtboxMobileNum";
             txtboxMobileNum.Size = new Size(261, 23);
             txtboxMobileNum.TabIndex = 21;
+            txtboxMobileNum.TextChanged += txtboxMobileNum_TextChanged;
             // 
             // lblHouseNo
             // 
@@ -264,6 +269,7 @@
             txtboxStreet.Name = "txtboxStreet";
             txtboxStreet.Size = new Size(157, 23);
             txtboxStreet.TabIndex = 24;
+            txtboxStreet.TextChanged += txtboxStreet_TextChanged;
             // 
             // lblVillageSubd
             // 
@@ -283,6 +289,7 @@
             txtboxVillageSubd.Name = "txtboxVillageSubd";
             txtboxVillageSubd.Size = new Size(157, 23);
             txtboxVillageSubd.TabIndex = 26;
+            txtboxVillageSubd.TextChanged += txtboxVillageSubd_TextChanged;
             // 
             // lblBrgy
             // 
@@ -302,6 +309,7 @@
             txtboxBrgy.Name = "txtboxBrgy";
             txtboxBrgy.Size = new Size(157, 23);
             txtboxBrgy.TabIndex = 28;
+            txtboxBrgy.TextChanged += txtboxBrgy_TextChanged;
             // 
             // lblCityProvince
             // 
@@ -322,6 +330,7 @@
             txtboxCityProvince.Name = "txtboxCityProvince";
             txtboxCityProvince.Size = new Size(157, 23);
             txtboxCityProvince.TabIndex = 30;
+            txtboxCityProvince.TextChanged += txtboxCityProvince_TextChanged;
             // 
             // cmboxMedHistory
             // 
@@ -334,6 +343,7 @@
             cmboxMedHistory.TabIndex = 32;
             cmboxMedHistory.Text = "Please Select.";
             cmboxMedHistory.UseWaitCursor = true;
+            cmboxMedHistory.SelectedIndexChanged += cmboxMedHistory_SelectedIndexChanged;
             // 
             // btnCONFIRMFORM
             // 
@@ -366,6 +376,7 @@
             txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
             txtboxOthersMedHistory.Size = new Size(198, 23);
             txtboxOthersMedHistory.TabIndex = 35;
+            txtboxOthersMedHistory.TextChanged += txtboxOthersMedHistory_TextChanged;
             // 
             // ConsultationForm
             // 

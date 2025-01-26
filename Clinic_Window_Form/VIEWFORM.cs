@@ -12,20 +12,31 @@ namespace Clinic_Window_Form
 {
     public partial class VIEWFORM : Form
     {
+        private DataTable dataInfo;
         public VIEWFORM()
         {
             InitializeComponent();
+
+            dataInfo = new DataTable();
+
+            dataInfo.Columns.Add("ID", typeof(int));
+            dataInfo.Columns.Add("FullName", typeof(string));
+
+            dataGridView1.DataSource = dataInfo;
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void VIEWFORM_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
         private void btnMainMenu_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Logged out of Admin.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
             ADMINCLIENTMENU AdminClient = new ADMINCLIENTMENU();
             AdminClient.Show();
             Hide();
