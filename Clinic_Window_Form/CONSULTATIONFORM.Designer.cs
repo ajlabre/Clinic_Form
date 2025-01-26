@@ -1,6 +1,6 @@
 ﻿namespace Clinic_Window_Form
 {
-    partial class ConsultationForm
+    partial class CONSULTATIONFORM
     {
         /// <summary>
         /// Required designer variable.
@@ -28,395 +28,352 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultationForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CONSULTATIONFORM));
             ClinicImage = new PictureBox();
             lblClinicConsultationForm = new Label();
-            lblFullName = new Label();
-            lblAddress = new Label();
-            lblBirthdate = new Label();
-            lblGender = new Label();
-            lblEmailAdd = new Label();
-            lblMobileNum = new Label();
-            lblMedHistory = new Label();
-            rdbtnFemale = new RadioButton();
-            rdbtnMale = new RadioButton();
-            DatePickerBirthdate = new DateTimePicker();
             txtboxFullName = new TextBox();
+            lblFullName = new Label();
             txtboxHouseNo = new TextBox();
-            txtboxEmailAdd = new TextBox();
-            txtboxMobileNum = new TextBox();
+            lblAddress = new Label();
             lblHouseNo = new Label();
-            lblStreet = new Label();
-            txtboxStreet = new TextBox();
             lblVillageSubd = new Label();
             txtboxVillageSubd = new TextBox();
+            lblStreet = new Label();
+            txtboxStreet = new TextBox();
             lblBrgy = new Label();
             txtboxBrgy = new TextBox();
             lblCityProvince = new Label();
             txtboxCityProvince = new TextBox();
-            cmboxMedHistory = new ComboBox();
-            btnCONFIRMFORM = new Button();
-            lblOthersMedHistory = new Label();
+            txtboxEmailAdd = new TextBox();
+            lblEmailAdd = new Label();
+            lblBirthdate = new Label();
+            txtboxMobileNum = new TextBox();
+            lblMobileNum = new Label();
             txtboxOthersMedHistory = new TextBox();
+            MedicalHistory = new Label();
+            label1 = new Label();
+            lblGender = new Label();
+            cmbGender = new ComboBox();
+            cmbMedHistory = new ComboBox();
+            DatePickerBirthdate = new DateTimePicker();
+            btnCONFIRM = new Button();
+            btnCancel = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
             // ClinicImage
             // 
             ClinicImage.Image = (Image)resources.GetObject("ClinicImage.Image");
-            ClinicImage.Location = new Point(12, 12);
+            ClinicImage.Location = new Point(13, 16);
             ClinicImage.Name = "ClinicImage";
             ClinicImage.Size = new Size(57, 61);
-            ClinicImage.TabIndex = 6;
+            ClinicImage.TabIndex = 10;
             ClinicImage.TabStop = false;
-            ClinicImage.Click += pictureBox1_Click;
             // 
             // lblClinicConsultationForm
             // 
             lblClinicConsultationForm.AutoSize = true;
             lblClinicConsultationForm.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblClinicConsultationForm.ForeColor = Color.DarkBlue;
-            lblClinicConsultationForm.Location = new Point(75, 21);
+            lblClinicConsultationForm.Location = new Point(76, 25);
             lblClinicConsultationForm.Name = "lblClinicConsultationForm";
             lblClinicConsultationForm.Size = new Size(464, 33);
-            lblClinicConsultationForm.TabIndex = 5;
+            lblClinicConsultationForm.TabIndex = 9;
             lblClinicConsultationForm.Text = "CLINIC CONSULTATION FORM";
+            // 
+            // txtboxFullName
+            // 
+            txtboxFullName.Location = new Point(187, 95);
+            txtboxFullName.Name = "txtboxFullName";
+            txtboxFullName.Size = new Size(216, 23);
+            txtboxFullName.TabIndex = 15;
             // 
             // lblFullName
             // 
             lblFullName.AutoSize = true;
             lblFullName.BackColor = SystemColors.GradientInactiveCaption;
-            lblFullName.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblFullName.ForeColor = SystemColors.ControlText;
-            lblFullName.Location = new Point(30, 101);
+            lblFullName.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblFullName.Location = new Point(35, 93);
             lblFullName.Name = "lblFullName";
-            lblFullName.Size = new Size(105, 22);
-            lblFullName.TabIndex = 8;
-            lblFullName.Text = "Full Name: ";
-            lblFullName.Click += label3_Click;
+            lblFullName.Size = new Size(106, 25);
+            lblFullName.TabIndex = 14;
+            lblFullName.Text = "Full Name";
+            // 
+            // txtboxHouseNo
+            // 
+            txtboxHouseNo.Location = new Point(156, 169);
+            txtboxHouseNo.Name = "txtboxHouseNo";
+            txtboxHouseNo.Size = new Size(150, 23);
+            txtboxHouseNo.TabIndex = 17;
             // 
             // lblAddress
             // 
             lblAddress.AutoSize = true;
             lblAddress.BackColor = SystemColors.GradientInactiveCaption;
-            lblAddress.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblAddress.ForeColor = SystemColors.ControlText;
-            lblAddress.Location = new Point(30, 155);
+            lblAddress.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblAddress.Location = new Point(35, 143);
             lblAddress.Name = "lblAddress";
-            lblAddress.Size = new Size(87, 22);
-            lblAddress.TabIndex = 9;
-            lblAddress.Text = "Address: ";
-            // 
-            // lblBirthdate
-            // 
-            lblBirthdate.AutoSize = true;
-            lblBirthdate.BackColor = SystemColors.GradientInactiveCaption;
-            lblBirthdate.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblBirthdate.ForeColor = SystemColors.ControlText;
-            lblBirthdate.Location = new Point(30, 300);
-            lblBirthdate.Name = "lblBirthdate";
-            lblBirthdate.Size = new Size(102, 22);
-            lblBirthdate.TabIndex = 10;
-            lblBirthdate.Text = "Birthdate: ";
-            // 
-            // lblGender
-            // 
-            lblGender.AutoSize = true;
-            lblGender.BackColor = SystemColors.GradientInactiveCaption;
-            lblGender.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblGender.ForeColor = SystemColors.ControlText;
-            lblGender.Location = new Point(30, 350);
-            lblGender.Name = "lblGender";
-            lblGender.Size = new Size(80, 22);
-            lblGender.TabIndex = 11;
-            lblGender.Text = "Gender: ";
-            // 
-            // lblEmailAdd
-            // 
-            lblEmailAdd.AutoSize = true;
-            lblEmailAdd.BackColor = SystemColors.GradientInactiveCaption;
-            lblEmailAdd.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblEmailAdd.ForeColor = SystemColors.ControlText;
-            lblEmailAdd.Location = new Point(30, 397);
-            lblEmailAdd.Name = "lblEmailAdd";
-            lblEmailAdd.Size = new Size(141, 22);
-            lblEmailAdd.TabIndex = 12;
-            lblEmailAdd.Text = "Email Address: ";
-            // 
-            // lblMobileNum
-            // 
-            lblMobileNum.AutoSize = true;
-            lblMobileNum.BackColor = SystemColors.GradientInactiveCaption;
-            lblMobileNum.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblMobileNum.ForeColor = SystemColors.ControlText;
-            lblMobileNum.Location = new Point(30, 447);
-            lblMobileNum.Name = "lblMobileNum";
-            lblMobileNum.Size = new Size(150, 22);
-            lblMobileNum.TabIndex = 13;
-            lblMobileNum.Text = "Mobile Number: ";
-            // 
-            // lblMedHistory
-            // 
-            lblMedHistory.AutoSize = true;
-            lblMedHistory.BackColor = SystemColors.GradientInactiveCaption;
-            lblMedHistory.Font = new Font("Cambria", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblMedHistory.ForeColor = SystemColors.ControlText;
-            lblMedHistory.Location = new Point(30, 495);
-            lblMedHistory.Name = "lblMedHistory";
-            lblMedHistory.Size = new Size(150, 22);
-            lblMedHistory.TabIndex = 14;
-            lblMedHistory.Text = "Medical History:";
-            // 
-            // rdbtnFemale
-            // 
-            rdbtnFemale.AutoSize = true;
-            rdbtnFemale.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            rdbtnFemale.ForeColor = Color.Black;
-            rdbtnFemale.Location = new Point(188, 350);
-            rdbtnFemale.Name = "rdbtnFemale";
-            rdbtnFemale.Size = new Size(86, 25);
-            rdbtnFemale.TabIndex = 15;
-            rdbtnFemale.TabStop = true;
-            rdbtnFemale.Text = "FEMALE";
-            rdbtnFemale.UseVisualStyleBackColor = true;
-            rdbtnFemale.CheckedChanged += radioButton1_CheckedChanged;
-            // 
-            // rdbtnMale
-            // 
-            rdbtnMale.AutoSize = true;
-            rdbtnMale.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            rdbtnMale.ForeColor = Color.Black;
-            rdbtnMale.Location = new Point(302, 350);
-            rdbtnMale.Name = "rdbtnMale";
-            rdbtnMale.Size = new Size(70, 25);
-            rdbtnMale.TabIndex = 16;
-            rdbtnMale.TabStop = true;
-            rdbtnMale.Text = "MALE";
-            rdbtnMale.UseVisualStyleBackColor = true;
-            rdbtnMale.CheckedChanged += rdbtnMale_CheckedChanged;
-            // 
-            // DatePickerBirthdate
-            // 
-            DatePickerBirthdate.CalendarFont = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            DatePickerBirthdate.CalendarMonthBackground = SystemColors.GradientActiveCaption;
-            DatePickerBirthdate.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            DatePickerBirthdate.Location = new Point(188, 293);
-            DatePickerBirthdate.Name = "DatePickerBirthdate";
-            DatePickerBirthdate.Size = new Size(261, 29);
-            DatePickerBirthdate.TabIndex = 17;
-            DatePickerBirthdate.ValueChanged += DatePickerBirthdate_ValueChanged;
-            // 
-            // txtboxFullName
-            // 
-            txtboxFullName.Location = new Point(188, 100);
-            txtboxFullName.Name = "txtboxFullName";
-            txtboxFullName.Size = new Size(261, 23);
-            txtboxFullName.TabIndex = 18;
-            txtboxFullName.TextChanged += textBox1_TextChanged;
-            // 
-            // txtboxHouseNo
-            // 
-            txtboxHouseNo.Location = new Point(200, 154);
-            txtboxHouseNo.Name = "txtboxHouseNo";
-            txtboxHouseNo.Size = new Size(157, 23);
-            txtboxHouseNo.TabIndex = 19;
-            txtboxHouseNo.TextChanged += txtboxHouseNo_TextChanged;
-            // 
-            // txtboxEmailAdd
-            // 
-            txtboxEmailAdd.Location = new Point(188, 397);
-            txtboxEmailAdd.Name = "txtboxEmailAdd";
-            txtboxEmailAdd.Size = new Size(261, 23);
-            txtboxEmailAdd.TabIndex = 20;
-            txtboxEmailAdd.TextChanged += txtboxEmailAdd_TextChanged;
-            // 
-            // txtboxMobileNum
-            // 
-            txtboxMobileNum.Location = new Point(188, 447);
-            txtboxMobileNum.Name = "txtboxMobileNum";
-            txtboxMobileNum.Size = new Size(261, 23);
-            txtboxMobileNum.TabIndex = 21;
-            txtboxMobileNum.TextChanged += txtboxMobileNum_TextChanged;
+            lblAddress.Size = new Size(87, 25);
+            lblAddress.TabIndex = 16;
+            lblAddress.Text = "Address";
             // 
             // lblHouseNo
             // 
             lblHouseNo.AutoSize = true;
             lblHouseNo.BackColor = SystemColors.GradientInactiveCaption;
-            lblHouseNo.Font = new Font("Cambria", 9.75F, FontStyle.Bold | FontStyle.Italic);
-            lblHouseNo.ForeColor = SystemColors.ControlText;
-            lblHouseNo.Location = new Point(123, 162);
+            lblHouseNo.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblHouseNo.Location = new Point(156, 143);
             lblHouseNo.Name = "lblHouseNo";
-            lblHouseNo.Size = new Size(71, 15);
-            lblHouseNo.TabIndex = 23;
-            lblHouseNo.Text = "HOUSE NO.";
-            lblHouseNo.Click += label9_Click;
-            // 
-            // lblStreet
-            // 
-            lblStreet.AutoSize = true;
-            lblStreet.BackColor = SystemColors.GradientInactiveCaption;
-            lblStreet.Font = new Font("Cambria", 9.75F, FontStyle.Bold | FontStyle.Italic);
-            lblStreet.ForeColor = SystemColors.ControlText;
-            lblStreet.Location = new Point(393, 162);
-            lblStreet.Name = "lblStreet";
-            lblStreet.Size = new Size(52, 15);
-            lblStreet.TabIndex = 25;
-            lblStreet.Text = "STREET";
-            // 
-            // txtboxStreet
-            // 
-            txtboxStreet.Location = new Point(466, 155);
-            txtboxStreet.Name = "txtboxStreet";
-            txtboxStreet.Size = new Size(157, 23);
-            txtboxStreet.TabIndex = 24;
-            txtboxStreet.TextChanged += txtboxStreet_TextChanged;
+            lblHouseNo.Size = new Size(81, 19);
+            lblHouseNo.TabIndex = 18;
+            lblHouseNo.Text = "House No.";
             // 
             // lblVillageSubd
             // 
             lblVillageSubd.AutoSize = true;
             lblVillageSubd.BackColor = SystemColors.GradientInactiveCaption;
-            lblVillageSubd.Font = new Font("Cambria", 9.75F, FontStyle.Bold | FontStyle.Italic);
-            lblVillageSubd.ForeColor = SystemColors.ControlText;
-            lblVillageSubd.Location = new Point(97, 203);
+            lblVillageSubd.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblVillageSubd.Location = new Point(156, 207);
             lblVillageSubd.Name = "lblVillageSubd";
-            lblVillageSubd.Size = new Size(97, 15);
-            lblVillageSubd.TabIndex = 27;
-            lblVillageSubd.Text = "VILLAGE/SUBD.";
+            lblVillageSubd.Size = new Size(103, 19);
+            lblVillageSubd.TabIndex = 20;
+            lblVillageSubd.Text = "Village/Subd";
             // 
             // txtboxVillageSubd
             // 
-            txtboxVillageSubd.Location = new Point(200, 200);
+            txtboxVillageSubd.Location = new Point(156, 233);
             txtboxVillageSubd.Name = "txtboxVillageSubd";
-            txtboxVillageSubd.Size = new Size(157, 23);
-            txtboxVillageSubd.TabIndex = 26;
-            txtboxVillageSubd.TextChanged += txtboxVillageSubd_TextChanged;
+            txtboxVillageSubd.Size = new Size(158, 23);
+            txtboxVillageSubd.TabIndex = 19;
+            // 
+            // lblStreet
+            // 
+            lblStreet.AutoSize = true;
+            lblStreet.BackColor = SystemColors.GradientInactiveCaption;
+            lblStreet.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblStreet.Location = new Point(335, 143);
+            lblStreet.Name = "lblStreet";
+            lblStreet.Size = new Size(52, 19);
+            lblStreet.TabIndex = 22;
+            lblStreet.Text = "Street";
+            // 
+            // txtboxStreet
+            // 
+            txtboxStreet.Location = new Point(335, 169);
+            txtboxStreet.Name = "txtboxStreet";
+            txtboxStreet.Size = new Size(158, 23);
+            txtboxStreet.TabIndex = 21;
             // 
             // lblBrgy
             // 
             lblBrgy.AutoSize = true;
             lblBrgy.BackColor = SystemColors.GradientInactiveCaption;
-            lblBrgy.Font = new Font("Cambria", 9.75F, FontStyle.Bold | FontStyle.Italic);
-            lblBrgy.ForeColor = SystemColors.ControlText;
-            lblBrgy.Location = new Point(379, 203);
+            lblBrgy.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblBrgy.Location = new Point(335, 207);
             lblBrgy.Name = "lblBrgy";
-            lblBrgy.Size = new Size(70, 15);
-            lblBrgy.TabIndex = 29;
-            lblBrgy.Text = "BARANGAY";
+            lblBrgy.Size = new Size(43, 19);
+            lblBrgy.TabIndex = 24;
+            lblBrgy.Text = "Brgy";
             // 
             // txtboxBrgy
             // 
-            txtboxBrgy.Location = new Point(466, 200);
+            txtboxBrgy.Location = new Point(335, 233);
             txtboxBrgy.Name = "txtboxBrgy";
-            txtboxBrgy.Size = new Size(157, 23);
-            txtboxBrgy.TabIndex = 28;
-            txtboxBrgy.TextChanged += txtboxBrgy_TextChanged;
+            txtboxBrgy.Size = new Size(158, 23);
+            txtboxBrgy.TabIndex = 23;
             // 
             // lblCityProvince
             // 
             lblCityProvince.AutoSize = true;
             lblCityProvince.BackColor = SystemColors.GradientInactiveCaption;
-            lblCityProvince.Font = new Font("Cambria", 9.75F, FontStyle.Bold | FontStyle.Italic);
-            lblCityProvince.ForeColor = SystemColors.ControlText;
-            lblCityProvince.Location = new Point(95, 249);
+            lblCityProvince.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblCityProvince.Location = new Point(156, 275);
             lblCityProvince.Name = "lblCityProvince";
-            lblCityProvince.Size = new Size(99, 15);
-            lblCityProvince.TabIndex = 31;
-            lblCityProvince.Text = "CITY/PROVINCE";
-            lblCityProvince.Click += label13_Click;
+            lblCityProvince.Size = new Size(108, 19);
+            lblCityProvince.TabIndex = 26;
+            lblCityProvince.Text = "City/Province";
             // 
             // txtboxCityProvince
             // 
-            txtboxCityProvince.Location = new Point(200, 246);
+            txtboxCityProvince.Location = new Point(156, 301);
             txtboxCityProvince.Name = "txtboxCityProvince";
-            txtboxCityProvince.Size = new Size(157, 23);
-            txtboxCityProvince.TabIndex = 30;
-            txtboxCityProvince.TextChanged += txtboxCityProvince_TextChanged;
+            txtboxCityProvince.Size = new Size(158, 23);
+            txtboxCityProvince.TabIndex = 25;
             // 
-            // cmboxMedHistory
+            // txtboxEmailAdd
             // 
-            cmboxMedHistory.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            cmboxMedHistory.FormattingEnabled = true;
-            cmboxMedHistory.Items.AddRange(new object[] { "Asthma", "Hypertension", "Diabetes", "Heart Disease", "Cancer " });
-            cmboxMedHistory.Location = new Point(188, 495);
-            cmboxMedHistory.Name = "cmboxMedHistory";
-            cmboxMedHistory.Size = new Size(261, 23);
-            cmboxMedHistory.TabIndex = 32;
-            cmboxMedHistory.Text = "Please Select.";
-            cmboxMedHistory.UseWaitCursor = true;
-            cmboxMedHistory.SelectedIndexChanged += cmboxMedHistory_SelectedIndexChanged;
+            txtboxEmailAdd.Location = new Point(187, 397);
+            txtboxEmailAdd.Name = "txtboxEmailAdd";
+            txtboxEmailAdd.Size = new Size(216, 23);
+            txtboxEmailAdd.TabIndex = 28;
             // 
-            // btnCONFIRMFORM
+            // lblEmailAdd
             // 
-            btnCONFIRMFORM.BackColor = SystemColors.GradientActiveCaption;
-            btnCONFIRMFORM.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnCONFIRMFORM.ForeColor = SystemColors.ControlText;
-            btnCONFIRMFORM.Location = new Point(477, 559);
-            btnCONFIRMFORM.Name = "btnCONFIRMFORM";
-            btnCONFIRMFORM.Size = new Size(143, 30);
-            btnCONFIRMFORM.TabIndex = 33;
-            btnCONFIRMFORM.Text = "CONFIRM";
-            btnCONFIRMFORM.UseVisualStyleBackColor = false;
-            btnCONFIRMFORM.Click += btnCONFIRMFORM_Click;
+            lblEmailAdd.AutoSize = true;
+            lblEmailAdd.BackColor = SystemColors.GradientInactiveCaption;
+            lblEmailAdd.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblEmailAdd.Location = new Point(35, 397);
+            lblEmailAdd.Name = "lblEmailAdd";
+            lblEmailAdd.Size = new Size(146, 25);
+            lblEmailAdd.TabIndex = 27;
+            lblEmailAdd.Text = "Email Address";
             // 
-            // lblOthersMedHistory
+            // lblBirthdate
             // 
-            lblOthersMedHistory.AutoSize = true;
-            lblOthersMedHistory.BackColor = SystemColors.GradientInactiveCaption;
-            lblOthersMedHistory.Font = new Font("Cambria", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblOthersMedHistory.ForeColor = SystemColors.ControlText;
-            lblOthersMedHistory.Location = new Point(188, 545);
-            lblOthersMedHistory.Name = "lblOthersMedHistory";
-            lblOthersMedHistory.Size = new Size(57, 19);
-            lblOthersMedHistory.TabIndex = 34;
-            lblOthersMedHistory.Text = "Others:";
+            lblBirthdate.AutoSize = true;
+            lblBirthdate.BackColor = SystemColors.GradientInactiveCaption;
+            lblBirthdate.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblBirthdate.Location = new Point(35, 437);
+            lblBirthdate.Name = "lblBirthdate";
+            lblBirthdate.Size = new Size(105, 25);
+            lblBirthdate.TabIndex = 29;
+            lblBirthdate.Text = "BirthDate";
+            // 
+            // txtboxMobileNum
+            // 
+            txtboxMobileNum.Location = new Point(187, 478);
+            txtboxMobileNum.Name = "txtboxMobileNum";
+            txtboxMobileNum.Size = new Size(216, 23);
+            txtboxMobileNum.TabIndex = 31;
+            // 
+            // lblMobileNum
+            // 
+            lblMobileNum.AutoSize = true;
+            lblMobileNum.BackColor = SystemColors.GradientInactiveCaption;
+            lblMobileNum.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblMobileNum.Location = new Point(31, 476);
+            lblMobileNum.Name = "lblMobileNum";
+            lblMobileNum.Size = new Size(150, 25);
+            lblMobileNum.TabIndex = 30;
+            lblMobileNum.Text = "MobileNumber";
             // 
             // txtboxOthersMedHistory
             // 
-            txtboxOthersMedHistory.Location = new Point(251, 541);
+            txtboxOthersMedHistory.Location = new Point(250, 554);
             txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
-            txtboxOthersMedHistory.Size = new Size(198, 23);
-            txtboxOthersMedHistory.TabIndex = 35;
-            txtboxOthersMedHistory.TextChanged += txtboxOthersMedHistory_TextChanged;
+            txtboxOthersMedHistory.Size = new Size(178, 23);
+            txtboxOthersMedHistory.TabIndex = 33;
             // 
-            // ConsultationForm
+            // MedicalHistory
+            // 
+            MedicalHistory.AutoSize = true;
+            MedicalHistory.BackColor = SystemColors.GradientInactiveCaption;
+            MedicalHistory.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            MedicalHistory.Location = new Point(31, 516);
+            MedicalHistory.Name = "MedicalHistory";
+            MedicalHistory.Size = new Size(159, 25);
+            MedicalHistory.TabIndex = 32;
+            MedicalHistory.Text = "Medical History";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.GradientInactiveCaption;
+            label1.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Location = new Point(187, 558);
+            label1.Name = "label1";
+            label1.Size = new Size(57, 19);
+            label1.TabIndex = 34;
+            label1.Text = "Others";
+            // 
+            // lblGender
+            // 
+            lblGender.AutoSize = true;
+            lblGender.BackColor = SystemColors.GradientInactiveCaption;
+            lblGender.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblGender.Location = new Point(35, 346);
+            lblGender.Name = "lblGender";
+            lblGender.Size = new Size(79, 25);
+            lblGender.TabIndex = 35;
+            lblGender.Text = "Gender";
+            // 
+            // cmbGender
+            // 
+            cmbGender.FormattingEnabled = true;
+            cmbGender.Location = new Point(187, 346);
+            cmbGender.Name = "cmbGender";
+            cmbGender.Size = new Size(216, 23);
+            cmbGender.TabIndex = 36;
+            // 
+            // cmbMedHistory
+            // 
+            cmbMedHistory.FormattingEnabled = true;
+            cmbMedHistory.Location = new Point(187, 516);
+            cmbMedHistory.Name = "cmbMedHistory";
+            cmbMedHistory.Size = new Size(216, 23);
+            cmbMedHistory.TabIndex = 38;
+            // 
+            // DatePickerBirthdate
+            // 
+            DatePickerBirthdate.Location = new Point(187, 437);
+            DatePickerBirthdate.Name = "DatePickerBirthdate";
+            DatePickerBirthdate.Size = new Size(216, 23);
+            DatePickerBirthdate.TabIndex = 39;
+            // 
+            // btnCONFIRM
+            // 
+            btnCONFIRM.BackColor = SystemColors.GradientActiveCaption;
+            btnCONFIRM.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCONFIRM.ForeColor = SystemColors.ControlText;
+            btnCONFIRM.Location = new Point(427, 612);
+            btnCONFIRM.Name = "btnCONFIRM";
+            btnCONFIRM.Size = new Size(143, 30);
+            btnCONFIRM.TabIndex = 40;
+            btnCONFIRM.Text = "CONFIRM";
+            btnCONFIRM.UseVisualStyleBackColor = false;
+            btnCONFIRM.Click += btnCONFIRM_Click;
+            // 
+            // btnCancel
+            // 
+            btnCancel.BackColor = SystemColors.GradientActiveCaption;
+            btnCancel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCancel.ForeColor = SystemColors.ControlText;
+            btnCancel.Location = new Point(30, 612);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(143, 30);
+            btnCancel.TabIndex = 41;
+            btnCancel.Text = "CANCEL";
+            btnCancel.UseVisualStyleBackColor = false;
+            btnCancel.Click += btnCancel_Click;
+            // 
+            // CONSULTATIONFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(654, 627);
+            ClientSize = new Size(592, 667);
+            Controls.Add(btnCancel);
+            Controls.Add(btnCONFIRM);
+            Controls.Add(DatePickerBirthdate);
+            Controls.Add(cmbMedHistory);
+            Controls.Add(cmbGender);
+            Controls.Add(lblGender);
+            Controls.Add(label1);
             Controls.Add(txtboxOthersMedHistory);
-            Controls.Add(lblOthersMedHistory);
-            Controls.Add(btnCONFIRMFORM);
-            Controls.Add(cmboxMedHistory);
+            Controls.Add(MedicalHistory);
+            Controls.Add(txtboxMobileNum);
+            Controls.Add(lblMobileNum);
+            Controls.Add(lblBirthdate);
+            Controls.Add(txtboxEmailAdd);
+            Controls.Add(lblEmailAdd);
             Controls.Add(lblCityProvince);
             Controls.Add(txtboxCityProvince);
             Controls.Add(lblBrgy);
             Controls.Add(txtboxBrgy);
-            Controls.Add(lblVillageSubd);
-            Controls.Add(txtboxVillageSubd);
             Controls.Add(lblStreet);
             Controls.Add(txtboxStreet);
+            Controls.Add(lblVillageSubd);
+            Controls.Add(txtboxVillageSubd);
             Controls.Add(lblHouseNo);
-            Controls.Add(txtboxMobileNum);
-            Controls.Add(txtboxEmailAdd);
             Controls.Add(txtboxHouseNo);
-            Controls.Add(txtboxFullName);
-            Controls.Add(DatePickerBirthdate);
-            Controls.Add(rdbtnMale);
-            Controls.Add(rdbtnFemale);
-            Controls.Add(lblMedHistory);
-            Controls.Add(lblMobileNum);
-            Controls.Add(lblEmailAdd);
-            Controls.Add(lblGender);
-            Controls.Add(lblBirthdate);
             Controls.Add(lblAddress);
+            Controls.Add(txtboxFullName);
             Controls.Add(lblFullName);
             Controls.Add(ClinicImage);
             Controls.Add(lblClinicConsultationForm);
-            ForeColor = SystemColors.GradientActiveCaption;
-            Name = "ConsultationForm";
-            Text = "CONSULTATION FORM";
-            Load += Form2_Load;
+            Name = "CONSULTATIONFORM";
+            Text = "CONSULTATIONFORM";
+            Load += CONSULTATIONFORM_Load;
             ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -426,32 +383,32 @@
 
         private PictureBox ClinicImage;
         private Label lblClinicConsultationForm;
-        private Label lblFullName;
-        private Label lblAddress;
-        private Label lblBirthdate;
-        private Label lblGender;
-        private Label lblEmailAdd;
-        private Label lblMobileNum;
-        private Label lblMedHistory;
-        private RadioButton rdbtnFemale;
-        private RadioButton rdbtnMale;
-        private DateTimePicker DatePickerBirthdate;
         private TextBox txtboxFullName;
+        private Label lblFullName;
         private TextBox txtboxHouseNo;
-        private TextBox txtboxEmailAdd;
-        private TextBox txtboxMobileNum;
+        private Label lblAddress;
         private Label lblHouseNo;
-        private Label lblStreet;
-        private TextBox txtboxStreet;
         private Label lblVillageSubd;
         private TextBox txtboxVillageSubd;
+        private Label lblStreet;
+        private TextBox txtboxStreet;
         private Label lblBrgy;
         private TextBox txtboxBrgy;
         private Label lblCityProvince;
         private TextBox txtboxCityProvince;
-        private ComboBox cmboxMedHistory;
-        private Button btnCONFIRMFORM;
-        private Label lblOthersMedHistory;
+        private TextBox txtboxEmailAdd;
+        private Label lblEmailAdd;
+        private Label lblBirthdate;
+        private TextBox txtboxMobileNum;
+        private Label lblMobileNum;
         private TextBox txtboxOthersMedHistory;
+        private Label MedicalHistory;
+        private Label label1;
+        private Label lblGender;
+        private ComboBox cmbGender;
+        private ComboBox cmbMedHistory;
+        private DateTimePicker DatePickerBirthdate;
+        private Button btnCONFIRM;
+        private Button btnCancel;
     }
 }

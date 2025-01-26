@@ -34,6 +34,19 @@
             Calendar = new MonthCalendar();
             dataGridView1 = new DataGridView();
             btnMainMenu = new Button();
+            btnEdit = new Button();
+            btnDelete = new Button();
+            txtboxFullName = new DataGridViewTextBoxColumn();
+            txtboxHouseNo = new DataGridViewTextBoxColumn();
+            txtboxVillageSubd = new DataGridViewTextBoxColumn();
+            txtboxStreet = new DataGridViewTextBoxColumn();
+            txtboxBrgy = new DataGridViewTextBoxColumn();
+            cmbGender = new DataGridViewButtonColumn();
+            DatePickerBirthdate = new DataGridViewTextBoxColumn();
+            txtboxEmailAdd = new DataGridViewTextBoxColumn();
+            txtboxMobileNum = new DataGridViewTextBoxColumn();
+            cmboxMedHistory = new DataGridViewComboBoxColumn();
+            txtboxOthersMedHistory = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -68,10 +81,11 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.GradientActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { txtboxFullName, txtboxHouseNo, txtboxVillageSubd, txtboxStreet, txtboxBrgy, cmbGender, DatePickerBirthdate, txtboxEmailAdd, txtboxMobileNum, cmboxMedHistory, txtboxOthersMedHistory });
             dataGridView1.GridColor = SystemColors.MenuHighlight;
-            dataGridView1.Location = new Point(28, 107);
+            dataGridView1.Location = new Point(20, 107);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(509, 320);
+            dataGridView1.Size = new Size(519, 320);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -88,12 +102,97 @@
             btnMainMenu.UseVisualStyleBackColor = false;
             btnMainMenu.Click += btnMainMenu_Click;
             // 
+            // btnEdit
+            // 
+            btnEdit.BackColor = SystemColors.GradientActiveCaption;
+            btnEdit.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnEdit.ForeColor = SystemColors.ControlText;
+            btnEdit.Location = new Point(559, 361);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(102, 30);
+            btnEdit.TabIndex = 35;
+            btnEdit.Text = "EDIT";
+            btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Click += btnEdit_Click;
+            // 
+            // btnDelete
+            // 
+            btnDelete.BackColor = SystemColors.GradientActiveCaption;
+            btnDelete.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnDelete.ForeColor = SystemColors.ControlText;
+            btnDelete.Location = new Point(559, 397);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(102, 30);
+            btnDelete.TabIndex = 36;
+            btnDelete.Text = "DELETE";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
+            // 
+            // txtboxFullName
+            // 
+            txtboxFullName.HeaderText = "FullName";
+            txtboxFullName.Name = "txtboxFullName";
+            // 
+            // txtboxHouseNo
+            // 
+            txtboxHouseNo.HeaderText = "HouseNo";
+            txtboxHouseNo.Name = "txtboxHouseNo";
+            // 
+            // txtboxVillageSubd
+            // 
+            txtboxVillageSubd.HeaderText = "VillageSubd";
+            txtboxVillageSubd.Name = "txtboxVillageSubd";
+            // 
+            // txtboxStreet
+            // 
+            txtboxStreet.HeaderText = "Street";
+            txtboxStreet.Name = "txtboxStreet";
+            // 
+            // txtboxBrgy
+            // 
+            txtboxBrgy.HeaderText = "Brgy";
+            txtboxBrgy.Name = "txtboxBrgy";
+            // 
+            // cmbGender
+            // 
+            cmbGender.HeaderText = "Gender";
+            cmbGender.Name = "cmbGender";
+            // 
+            // DatePickerBirthdate
+            // 
+            DatePickerBirthdate.HeaderText = "Birthdate";
+            DatePickerBirthdate.Name = "DatePickerBirthdate";
+            // 
+            // txtboxEmailAdd
+            // 
+            txtboxEmailAdd.HeaderText = "Email";
+            txtboxEmailAdd.Name = "txtboxEmailAdd";
+            // 
+            // txtboxMobileNum
+            // 
+            txtboxMobileNum.HeaderText = "MobileNum";
+            txtboxMobileNum.Name = "txtboxMobileNum";
+            // 
+            // cmboxMedHistory
+            // 
+            cmboxMedHistory.HeaderText = "MedHistory";
+            cmboxMedHistory.Name = "cmboxMedHistory";
+            cmboxMedHistory.Resizable = DataGridViewTriState.True;
+            cmboxMedHistory.SortMode = DataGridViewColumnSortMode.Automatic;
+            // 
+            // txtboxOthersMedHistory
+            // 
+            txtboxOthersMedHistory.HeaderText = "OthersMedHistory";
+            txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
+            // 
             // VIEWFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnDelete);
+            Controls.Add(btnEdit);
             Controls.Add(btnMainMenu);
             Controls.Add(dataGridView1);
             Controls.Add(Calendar);
@@ -115,5 +214,18 @@
         private MonthCalendar Calendar;
         private DataGridView dataGridView1;
         private Button btnMainMenu;
+        private Button btnEdit;
+        private Button btnDelete;
+        private DataGridViewTextBoxColumn txtboxFullName;
+        private DataGridViewTextBoxColumn txtboxHouseNo;
+        private DataGridViewTextBoxColumn txtboxVillageSubd;
+        private DataGridViewTextBoxColumn txtboxStreet;
+        private DataGridViewTextBoxColumn txtboxBrgy;
+        private DataGridViewButtonColumn cmbGender;
+        private DataGridViewTextBoxColumn DatePickerBirthdate;
+        private DataGridViewTextBoxColumn txtboxEmailAdd;
+        private DataGridViewTextBoxColumn txtboxMobileNum;
+        private DataGridViewComboBoxColumn cmboxMedHistory;
+        private DataGridViewTextBoxColumn txtboxOthersMedHistory;
     }
 }

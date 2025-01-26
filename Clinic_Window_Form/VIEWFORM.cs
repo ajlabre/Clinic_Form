@@ -12,26 +12,24 @@ namespace Clinic_Window_Form
 {
     public partial class VIEWFORM : Form
     {
-        private DataTable dataInfo;
-        public VIEWFORM(List<string> ConsultationInfo)
+        private DataTable ConsultationData;
+
+        public VIEWFORM (DataTable ConsultationInfo)
         {
             InitializeComponent();
 
-            dataInfo = new DataTable();
+            ConsultationData = ConsultationInfo;
 
-            dataInfo.Columns.Add("ID", typeof(int));
-            dataInfo.Columns.Add("FullName", typeof(string));
+            dataGridView1.DataSource = ConsultationData;
 
-            dataGridView1.DataSource = dataInfo;
-
-            AddDataToGrid(ConsultationInfo);
         }
-        private void AddDataToGrid(List<string> data)
+        public VIEWFORM()
         {
-            DataRow row = dataInfo.NewRow();
-            row["ID"] = int.Parse(data[0]);
-            row["FullName"] = data[1];
-            dataInfo.Rows.Add(row);
+            InitializeComponent();
+
+            ConsultationData = new DataTable();
+
+            dataGridView1.DataSource = ConsultationData;
         }
         private void VIEWFORM_Load(object sender, EventArgs e)
         {
@@ -49,5 +47,54 @@ namespace Clinic_Window_Form
             AdminClient.Show();
             Hide();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
+
+                selectedRow.Cells["FullName"].Value = txtboxFullName.HeaderText;
+                selectedRow.Cells["HouseNo"].Value = txtboxHouseNo.HeaderText;
+                selectedRow.Cells["VillageSubd"].Value = txtboxVillageSubd.HeaderText;
+                selectedRow.Cells["Street"].Value = txtboxStreet.HeaderText;
+                selectedRow.Cells["Brgy"].Value = txtboxBrgy.HeaderText;
+                selectedRow.Cells["Gender"].Value = cmbGender.HeaderText;
+                selectedRow.Cells["Birthdate"].Value = DatePickerBirthdate.ValueType;
+                selectedRow.Cells["Email"].Value = txtboxEmailAdd.HeaderText;
+                selectedRow.Cells["MobileNum"].Value = txtboxMobileNum.HeaderText;
+                selectedRow.Cells["MedHistory"].Value = cmboxMedHistory.HeaderText;
+                selectedRow.Cells["OthersMedHistory"].Value = txtboxOthersMedHistory.HeaderText;
+
+            }
+            else
+            {
+                MessageBox.Show("Please select a row to edit.", "Edit Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        DataRow dataRow = ((DataRowView)row.DataBoundItem).Row;
+                        dataRow.Delete();
+
+                        dataGridView1.Rows.Remove(row);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a row to delete.", "Delete Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    
     }
 }

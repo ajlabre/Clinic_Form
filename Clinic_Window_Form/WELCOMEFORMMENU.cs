@@ -19,7 +19,7 @@ namespace Clinic_Window_Form
 
         private void btnNEXTMAINMENU_Click(object sender, EventArgs e)
         {
-            ConsultationForm Consultationfrm = new ConsultationForm();
+            CONSULTATIONFORM Consultationfrm = new CONSULTATIONFORM();
             Consultationfrm.Show();
             Hide();
         }
