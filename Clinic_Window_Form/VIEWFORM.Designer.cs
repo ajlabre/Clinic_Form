@@ -36,17 +36,17 @@
             btnMainMenu = new Button();
             btnEdit = new Button();
             btnDelete = new Button();
-            txtboxOthersMedHistory = new DataGridViewTextBoxColumn();
-            cmboxMedHistory = new DataGridViewComboBoxColumn();
-            txtboxMobileNum = new DataGridViewTextBoxColumn();
-            txtboxEmailAdd = new DataGridViewTextBoxColumn();
-            DatePickerBirthdate = new DataGridViewTextBoxColumn();
-            cmbGender = new DataGridViewButtonColumn();
-            txtboxBrgy = new DataGridViewTextBoxColumn();
-            txtboxStreet = new DataGridViewTextBoxColumn();
-            txtboxVillageSubd = new DataGridViewTextBoxColumn();
-            txtboxHouseNo = new DataGridViewTextBoxColumn();
             txtboxFullName = new DataGridViewTextBoxColumn();
+            txtboxHouseNo = new DataGridViewTextBoxColumn();
+            txtboxVillageSubd = new DataGridViewTextBoxColumn();
+            txtboxStreet = new DataGridViewTextBoxColumn();
+            txtboxBrgy = new DataGridViewTextBoxColumn();
+            txtboxCityProvince = new DataGridViewTextBoxColumn();
+            txtboxGender = new DataGridViewButtonColumn();
+            txtboxBirthdate = new DataGridViewTextBoxColumn();
+            txtboxEmailAdd = new DataGridViewTextBoxColumn();
+            txtboxMobileNum = new DataGridViewTextBoxColumn();
+            txtboxMedHistory = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -81,7 +81,7 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.GradientActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { txtboxFullName, txtboxHouseNo, txtboxVillageSubd, txtboxStreet, txtboxBrgy, cmbGender, DatePickerBirthdate, txtboxEmailAdd, txtboxMobileNum, cmboxMedHistory, txtboxOthersMedHistory });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { txtboxFullName, txtboxHouseNo, txtboxVillageSubd, txtboxStreet, txtboxBrgy, txtboxCityProvince, txtboxGender, txtboxBirthdate, txtboxEmailAdd, txtboxMobileNum, txtboxMedHistory });
             dataGridView1.GridColor = SystemColors.MenuHighlight;
             dataGridView1.Location = new Point(20, 107);
             dataGridView1.Name = "dataGridView1";
@@ -128,62 +128,61 @@
             btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
             // 
-            // txtboxOthersMedHistory
+            // txtboxFullName
             // 
-            txtboxOthersMedHistory.HeaderText = "OthersMedHistory";
-            txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
-            // 
-            // cmboxMedHistory
-            // 
-            cmboxMedHistory.HeaderText = "MedHistory";
-            cmboxMedHistory.Name = "cmboxMedHistory";
-            cmboxMedHistory.Resizable = DataGridViewTriState.True;
-            cmboxMedHistory.SortMode = DataGridViewColumnSortMode.Automatic;
-            // 
-            // txtboxMobileNum
-            // 
-            txtboxMobileNum.HeaderText = "MobileNum";
-            txtboxMobileNum.Name = "txtboxMobileNum";
-            // 
-            // txtboxEmailAdd
-            // 
-            txtboxEmailAdd.HeaderText = "Email";
-            txtboxEmailAdd.Name = "txtboxEmailAdd";
-            // 
-            // DatePickerBirthdate
-            // 
-            DatePickerBirthdate.HeaderText = "Birthdate";
-            DatePickerBirthdate.Name = "DatePickerBirthdate";
-            // 
-            // cmbGender
-            // 
-            cmbGender.HeaderText = "Gender";
-            cmbGender.Name = "cmbGender";
-            // 
-            // txtboxBrgy
-            // 
-            txtboxBrgy.HeaderText = "Brgy";
-            txtboxBrgy.Name = "txtboxBrgy";
-            // 
-            // txtboxStreet
-            // 
-            txtboxStreet.HeaderText = "Street";
-            txtboxStreet.Name = "txtboxStreet";
-            // 
-            // txtboxVillageSubd
-            // 
-            txtboxVillageSubd.HeaderText = "VillageSubd";
-            txtboxVillageSubd.Name = "txtboxVillageSubd";
+            txtboxFullName.HeaderText = "FullName";
+            txtboxFullName.Name = "txtboxFullName";
             // 
             // txtboxHouseNo
             // 
             txtboxHouseNo.HeaderText = "HouseNo";
             txtboxHouseNo.Name = "txtboxHouseNo";
             // 
-            // txtboxFullName
+            // txtboxVillageSubd
             // 
-            txtboxFullName.HeaderText = "FullName";
-            txtboxFullName.Name = "txtboxFullName";
+            txtboxVillageSubd.HeaderText = "VillageSubd";
+            txtboxVillageSubd.Name = "txtboxVillageSubd";
+            // 
+            // txtboxStreet
+            // 
+            txtboxStreet.HeaderText = "Street";
+            txtboxStreet.Name = "txtboxStreet";
+            // 
+            // txtboxBrgy
+            // 
+            txtboxBrgy.HeaderText = "Brgy";
+            txtboxBrgy.Name = "txtboxBrgy";
+            // 
+            // txtboxCityProvince
+            // 
+            txtboxCityProvince.HeaderText = "CityProvince";
+            txtboxCityProvince.Name = "txtboxCityProvince";
+            // 
+            // txtboxGender
+            // 
+            txtboxGender.HeaderText = "Gender";
+            txtboxGender.Name = "txtboxGender";
+            // 
+            // txtboxBirthdate
+            // 
+            txtboxBirthdate.HeaderText = "Birthdate";
+            txtboxBirthdate.Name = "txtboxBirthdate";
+            // 
+            // txtboxEmailAdd
+            // 
+            txtboxEmailAdd.HeaderText = "Email";
+            txtboxEmailAdd.Name = "txtboxEmailAdd";
+            // 
+            // txtboxMobileNum
+            // 
+            txtboxMobileNum.HeaderText = "MobileNum";
+            txtboxMobileNum.Name = "txtboxMobileNum";
+            // 
+            // txtboxMedHistory
+            // 
+            txtboxMedHistory.HeaderText = "MedHistory";
+            txtboxMedHistory.Name = "txtboxMedHistory";
+            txtboxMedHistory.Resizable = DataGridViewTriState.True;
             // 
             // VIEWFORM
             // 
@@ -221,11 +220,15 @@
         private DataGridViewTextBoxColumn txtboxVillageSubd;
         private DataGridViewTextBoxColumn txtboxStreet;
         private DataGridViewTextBoxColumn txtboxBrgy;
+        private DataGridViewTextBoxColumn txtboxCityProvince;
         private DataGridViewButtonColumn cmbGender;
         private DataGridViewTextBoxColumn DatePickerBirthdate;
         private DataGridViewTextBoxColumn txtboxEmailAdd;
         private DataGridViewTextBoxColumn txtboxMobileNum;
-        private DataGridViewComboBoxColumn cmboxMedHistory;
+        private DataGridViewTextBoxColumn cmboxMedHistory;
         private DataGridViewTextBoxColumn txtboxOthersMedHistory;
+        private DataGridViewButtonColumn txtboxGender;
+        private DataGridViewTextBoxColumn txtboxBirthdate;
+        private DataGridViewTextBoxColumn txtboxMedHistory;
     }
 }

@@ -141,6 +141,7 @@
             Controls.Add(lblConsultationForm);
             Name = "ADMINLOGIN";
             Text = "ADMINLOGIN";
+            Load += ADMINLOGIN_Load;
             ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
             ResumeLayout(false);
             PerformLayout();

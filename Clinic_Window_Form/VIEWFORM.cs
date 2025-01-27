@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,25 +13,55 @@ namespace Clinic_Window_Form
 {
     public partial class VIEWFORM : Form
     {
-        private DataTable ConsultationData;
+        public string V1 { get; }
+        public string V2 { get; }
+        public string V3 { get; }
+        public string V4 { get; }
+        public string V5 { get; }
+        public string V6 { get; }
+        public string V7 { get; }
+        public string V8 { get; }
+        public string V9 { get; }
+        public string V10 { get; }
 
-        public VIEWFORM (DataTable ConsultationInfo)
+        public VIEWFORM(string fullname, string houseno, string street, string villagesubd,
+            string brgy, string cityprovince, string gender, string emailadd, string birthdate,
+            string mobilenum, string medicalhistory, string othersmedhistory)
         {
-            InitializeComponent();
+            
+                InitializeComponent();
 
-            ConsultationData = ConsultationInfo;
-
-            dataGridView1.DataSource = ConsultationData;
-
+                txtboxFullName.HeaderText = fullname;
+                txtboxHouseNo.HeaderText = houseno;
+                txtboxStreet.HeaderText = street;
+                txtboxVillageSubd.HeaderText = villagesubd;
+                txtboxBrgy.HeaderText = brgy;
+                txtboxCityProvince.HeaderText = cityprovince;
+                txtboxGender.HeaderText = gender;
+                txtboxEmailAdd.HeaderText = emailadd;
+                txtboxMobileNum.HeaderText = mobilenum;
+                txtboxMedHistory.HeaderText = medicalhistory;
         }
         public VIEWFORM()
         {
-            InitializeComponent();
 
-            ConsultationData = new DataTable();
-
-            dataGridView1.DataSource = ConsultationData;
         }
+
+        public VIEWFORM(string text, string v1, string v2, string v3, string v4, string v5, string v6, string v7, string v8, string v9, string v10)
+        {
+            Text = text;
+            V1 = v1;
+            V2 = v2;
+            V3 = v3;
+            V4 = v4;
+            V5 = v5;
+            V6 = v6;
+            V7 = v7;
+            V8 = v8;
+            V9 = v9;
+            V10 = v10;
+        }
+
         private void VIEWFORM_Load(object sender, EventArgs e)
         {
 
@@ -50,50 +81,14 @@ namespace Clinic_Window_Form
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
-
-                selectedRow.Cells["FullName"].Value = txtboxFullName.HeaderText;
-                selectedRow.Cells["HouseNo"].Value = txtboxHouseNo.HeaderText;
-                selectedRow.Cells["VillageSubd"].Value = txtboxVillageSubd.HeaderText;
-                selectedRow.Cells["Street"].Value = txtboxStreet.HeaderText;
-                selectedRow.Cells["Brgy"].Value = txtboxBrgy.HeaderText;
-                selectedRow.Cells["Gender"].Value = cmbGender.HeaderText;
-                selectedRow.Cells["Birthdate"].Value = DatePickerBirthdate.ValueType;
-                selectedRow.Cells["Email"].Value = txtboxEmailAdd.HeaderText;
-                selectedRow.Cells["MobileNum"].Value = txtboxMobileNum.HeaderText;
-                selectedRow.Cells["MedHistory"].Value = cmboxMedHistory.HeaderText;
-                selectedRow.Cells["OthersMedHistory"].Value = txtboxOthersMedHistory.HeaderText;
-
-            }
-            else
-            {
-                MessageBox.Show("Please select a row to edit.", "Edit Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+           
 
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
 
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        DataRow dataRow = ((DataRowView)row.DataBoundItem).Row;
-                        dataRow.Delete();
-
-                        dataGridView1.Rows.Remove(row);
-                    }
-                }
-            }
-            else
-            {
-                MessageBox.Show("Please select a row to delete.", "Delete Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
         }
     
     }

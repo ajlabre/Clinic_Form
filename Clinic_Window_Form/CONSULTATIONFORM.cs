@@ -29,25 +29,34 @@ namespace Clinic_Window_Form
 
         private void btnCONFIRM_Click(object sender, EventArgs e)
         {
-            ConsultationInfo.Add(txtboxFullName.Text);
-            ConsultationInfo.Add(txtboxHouseNo.Text);
-            ConsultationInfo.Add(txtboxVillageSubd.Text);
-            ConsultationInfo.Add(txtboxStreet.Text);
-            ConsultationInfo.Add(txtboxBrgy.Text);
-            ConsultationInfo.Add(DatePickerBirthdate.Text);
-            ConsultationInfo.Add(cmbGender.Text);
-            ConsultationInfo.Add(txtboxEmailAdd.Text);
-            ConsultationInfo.Add(txtboxMobileNum.Text);
-            ConsultationInfo.Add(cmbMedHistory.Text);
-            ConsultationInfo.Add(txtboxOthersMedHistory.Text);
+            string fullname = txtboxFullName.Text;
+            string houseno = txtboxHouseNo.Text;
+            string street = txtboxStreet.Text;
+            string villagesubd = txtboxVillageSubd.Text;
+            string brgy = txtboxBrgy.Text;
+            string cityprovince = txtboxCityProvince.Text;
+            string gender = txtboxGender.Text;
+            string emailadd = txtboxEmailAdd.Text;
+            string birthdate = txtboxBirthdate.Text;
+            string mobilenum = txtboxMobileNum.Text;
+            string medicalhistory = txtboxMedHistory.Text;
 
-            MessageBox.Show("Client succesfully registered.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (fullname == ConsultationRegister.fullname && houseno == ConsultationRegister.houseno && street == ConsultationRegister.street
+                && villagesubd == ConsultationRegister.villagesubd && brgy == ConsultationRegister.brgy && cityprovince == ConsultationRegister.cityprovince
+                && gender == ConsultationRegister.Gender && emailadd == ConsultationRegister.emailadd && birthdate == ConsultationRegister.birthdate
+                && mobilenum == ConsultationRegister.mobilenum && medicalhistory == ConsultationRegister.medicalhistory)
+            {
+                MessageBox.Show("Client succesfully registered.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            ADMINCLIENTMENU AdminClient = new ADMINCLIENTMENU();
-            AdminClient.Show();
-            Hide();
+                VIEWFORM viewForm = new VIEWFORM();
+                viewForm.Show();
+                Hide();
+            }
+            else
+            {
+                MessageBox.Show("Fill out all the fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
-
         private void CONSULTATIONFORM_Load(object sender, EventArgs e)
         {
             

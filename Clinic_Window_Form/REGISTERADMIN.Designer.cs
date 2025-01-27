@@ -151,6 +151,7 @@
             Controls.Add(lblConsultationForm);
             Name = "REGISTERADMIN";
             Text = "REGISTERADMIN";
+            Load += REGISTERADMIN_Load;
             ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -49,15 +49,13 @@
             lblBirthdate = new Label();
             txtboxMobileNum = new TextBox();
             lblMobileNum = new Label();
-            txtboxOthersMedHistory = new TextBox();
             MedicalHistory = new Label();
-            label1 = new Label();
             lblGender = new Label();
-            cmbGender = new ComboBox();
-            cmbMedHistory = new ComboBox();
-            DatePickerBirthdate = new DateTimePicker();
             btnCONFIRM = new Button();
             btnCancel = new Button();
+            txtboxGender = new TextBox();
+            txtboxBirthdate = new TextBox();
+            txtboxMedHistory = new TextBox();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -223,7 +221,7 @@
             lblBirthdate.AutoSize = true;
             lblBirthdate.BackColor = SystemColors.GradientInactiveCaption;
             lblBirthdate.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblBirthdate.Location = new Point(35, 437);
+            lblBirthdate.Location = new Point(35, 448);
             lblBirthdate.Name = "lblBirthdate";
             lblBirthdate.Size = new Size(105, 25);
             lblBirthdate.TabIndex = 29;
@@ -231,7 +229,7 @@
             // 
             // txtboxMobileNum
             // 
-            txtboxMobileNum.Location = new Point(187, 478);
+            txtboxMobileNum.Location = new Point(187, 502);
             txtboxMobileNum.Name = "txtboxMobileNum";
             txtboxMobileNum.Size = new Size(216, 23);
             txtboxMobileNum.TabIndex = 31;
@@ -241,40 +239,22 @@
             lblMobileNum.AutoSize = true;
             lblMobileNum.BackColor = SystemColors.GradientInactiveCaption;
             lblMobileNum.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblMobileNum.Location = new Point(31, 476);
+            lblMobileNum.Location = new Point(31, 500);
             lblMobileNum.Name = "lblMobileNum";
             lblMobileNum.Size = new Size(150, 25);
             lblMobileNum.TabIndex = 30;
             lblMobileNum.Text = "MobileNumber";
-            // 
-            // txtboxOthersMedHistory
-            // 
-            txtboxOthersMedHistory.Location = new Point(250, 554);
-            txtboxOthersMedHistory.Name = "txtboxOthersMedHistory";
-            txtboxOthersMedHistory.Size = new Size(178, 23);
-            txtboxOthersMedHistory.TabIndex = 33;
             // 
             // MedicalHistory
             // 
             MedicalHistory.AutoSize = true;
             MedicalHistory.BackColor = SystemColors.GradientInactiveCaption;
             MedicalHistory.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            MedicalHistory.Location = new Point(31, 516);
+            MedicalHistory.Location = new Point(31, 553);
             MedicalHistory.Name = "MedicalHistory";
             MedicalHistory.Size = new Size(159, 25);
             MedicalHistory.TabIndex = 32;
             MedicalHistory.Text = "Medical History";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = SystemColors.GradientInactiveCaption;
-            label1.Font = new Font("Cambria", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(187, 558);
-            label1.Name = "label1";
-            label1.Size = new Size(57, 19);
-            label1.TabIndex = 34;
-            label1.Text = "Others";
             // 
             // lblGender
             // 
@@ -283,32 +263,9 @@
             lblGender.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblGender.Location = new Point(35, 346);
             lblGender.Name = "lblGender";
-            lblGender.Size = new Size(79, 25);
+            lblGender.Size = new Size(138, 25);
             lblGender.TabIndex = 35;
-            lblGender.Text = "Gender";
-            // 
-            // cmbGender
-            // 
-            cmbGender.FormattingEnabled = true;
-            cmbGender.Location = new Point(187, 346);
-            cmbGender.Name = "cmbGender";
-            cmbGender.Size = new Size(216, 23);
-            cmbGender.TabIndex = 36;
-            // 
-            // cmbMedHistory
-            // 
-            cmbMedHistory.FormattingEnabled = true;
-            cmbMedHistory.Location = new Point(187, 516);
-            cmbMedHistory.Name = "cmbMedHistory";
-            cmbMedHistory.Size = new Size(216, 23);
-            cmbMedHistory.TabIndex = 38;
-            // 
-            // DatePickerBirthdate
-            // 
-            DatePickerBirthdate.Location = new Point(187, 437);
-            DatePickerBirthdate.Name = "DatePickerBirthdate";
-            DatePickerBirthdate.Size = new Size(216, 23);
-            DatePickerBirthdate.TabIndex = 39;
+            lblGender.Text = "Gender (F/M)";
             // 
             // btnCONFIRM
             // 
@@ -336,20 +293,39 @@
             btnCancel.UseVisualStyleBackColor = false;
             btnCancel.Click += btnCancel_Click;
             // 
+            // txtboxGender
+            // 
+            txtboxGender.Location = new Point(187, 346);
+            txtboxGender.Name = "txtboxGender";
+            txtboxGender.Size = new Size(86, 23);
+            txtboxGender.TabIndex = 42;
+            // 
+            // txtboxBirthdate
+            // 
+            txtboxBirthdate.Location = new Point(187, 448);
+            txtboxBirthdate.Name = "txtboxBirthdate";
+            txtboxBirthdate.Size = new Size(216, 23);
+            txtboxBirthdate.TabIndex = 43;
+            // 
+            // txtboxMedHistory
+            // 
+            txtboxMedHistory.Location = new Point(187, 553);
+            txtboxMedHistory.Name = "txtboxMedHistory";
+            txtboxMedHistory.Size = new Size(216, 23);
+            txtboxMedHistory.TabIndex = 44;
+            // 
             // CONSULTATIONFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(592, 667);
+            Controls.Add(txtboxMedHistory);
+            Controls.Add(txtboxBirthdate);
+            Controls.Add(txtboxGender);
             Controls.Add(btnCancel);
             Controls.Add(btnCONFIRM);
-            Controls.Add(DatePickerBirthdate);
-            Controls.Add(cmbMedHistory);
-            Controls.Add(cmbGender);
             Controls.Add(lblGender);
-            Controls.Add(label1);
-            Controls.Add(txtboxOthersMedHistory);
             Controls.Add(MedicalHistory);
             Controls.Add(txtboxMobileNum);
             Controls.Add(lblMobileNum);
@@ -405,10 +381,10 @@
         private Label MedicalHistory;
         private Label label1;
         private Label lblGender;
-        private ComboBox cmbGender;
-        private ComboBox cmbMedHistory;
-        private DateTimePicker DatePickerBirthdate;
         private Button btnCONFIRM;
         private Button btnCancel;
+        private TextBox txtboxGender;
+        private TextBox txtboxBirthdate;
+        private TextBox txtboxMedHistory;
     }
 }

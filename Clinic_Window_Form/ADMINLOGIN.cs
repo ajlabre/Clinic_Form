@@ -31,7 +31,20 @@ namespace Clinic_Window_Form
             {
                 MessageBox.Show("Admin confirmed successfully!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                VIEWFORM viewForm = new VIEWFORM();
+                VIEWFORM viewForm = new VIEWFORM(
+                ConsultationRegister.Text,
+                "Full Name",
+                "Street",
+                "Village/Subd",
+                "Barangay",
+                "City/Province",
+                "Gender",
+                "Email Address",
+                "MM/DD/YYYY",
+                "Mobile No.",
+                "Medical History",
+                "Others Medical History"
+    );
                 viewForm.Show();
                 Hide();
             }
@@ -44,9 +57,6 @@ namespace Clinic_Window_Form
                 Hide();
             }
 
-            //ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
-            //AdminClientMenu.Show();
-            //Hide();
         }
 
         private void txtboxUsername_TextChanged(object sender, EventArgs e)
@@ -64,6 +74,11 @@ namespace Clinic_Window_Form
             ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
             AdminClientMenu.Show();
             Hide();
+        }
+
+        private void ADMINLOGIN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
