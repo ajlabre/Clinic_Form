@@ -59,7 +59,22 @@ namespace Clinic_Window_Form
         }
         private void CONSULTATIONFORM_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtboxFullName.Clear();
+            txtboxHouseNo.Clear();
+            txtboxStreet.Clear();
+            txtboxVillageSubd.Clear();
+            txtboxBrgy.Clear();
+            txtboxCityProvince.Clear();
+            txtboxGender.Clear();
+            txtboxEmailAdd.Clear();
+            txtboxBirthdate.Clear();
+            txtboxMobileNum.Clear();
+            txtboxMedHistory.Clear();
         }
     }
 }

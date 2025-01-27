@@ -56,6 +56,7 @@
             txtboxGender = new TextBox();
             txtboxBirthdate = new TextBox();
             txtboxMedHistory = new TextBox();
+            btnClear = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -314,12 +315,26 @@
             txtboxMedHistory.Size = new Size(216, 23);
             txtboxMedHistory.TabIndex = 44;
             // 
+            // btnClear
+            // 
+            btnClear.BackColor = SystemColors.GradientActiveCaption;
+            btnClear.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnClear.ForeColor = SystemColors.ControlText;
+            btnClear.Location = new Point(235, 612);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(143, 30);
+            btnClear.TabIndex = 45;
+            btnClear.Text = "CLEAR";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
+            // 
             // CONSULTATIONFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(592, 667);
+            Controls.Add(btnClear);
             Controls.Add(txtboxMedHistory);
             Controls.Add(txtboxBirthdate);
             Controls.Add(txtboxGender);
@@ -386,5 +401,6 @@
         private TextBox txtboxGender;
         private TextBox txtboxBirthdate;
         private TextBox txtboxMedHistory;
+        private Button btnClear;
     }
 }

@@ -65,3 +65,26 @@ D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitH
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.genruntimeconfig.cache
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\ref\Clinic_Window_Form.dll
 D:\One Drive\OneDrive - Polytechnic University of the Philippines\Documents\GitHub\Clinic_ConsultationForm\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.REGISTERADMIN.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\bin\Debug\net8.0-windows\Clinic_Window_Form.exe
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\bin\Debug\net8.0-windows\Clinic_Window_Form.deps.json
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\bin\Debug\net8.0-windows\Clinic_Window_Form.runtimeconfig.json
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\bin\Debug\net8.0-windows\Clinic_Window_Form.dll
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\bin\Debug\net8.0-windows\Clinic_Window_Form.pdb
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.ADMINCLIENTMENU.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.ADMINLOGIN.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.CONSULTATIONFORM.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.Properties.Resources.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.REGISTERADMIN.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.VIEWFORM.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.WELCOMEFORMMENU.resources
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.csproj.GenerateResource.cache
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.AssemblyInfoInputs.cache
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.AssemblyInfo.cs
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.csproj.CoreCompileInputs.cache
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.sourcelink.json
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.dll
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\refint\Clinic_Window_Form.dll
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.pdb
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.genruntimeconfig.cache
+C:\Users\chica\source\repos\newajlabre\Clinic_Window_Form\obj\Debug\net8.0-windows\ref\Clinic_Window_Form.dll

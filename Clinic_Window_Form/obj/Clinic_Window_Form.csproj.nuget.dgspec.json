@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\Clinic_Window_Form.csproj": {}
+    "C:\\Users\\chica\\source\\repos\\newajlabre\\Clinic_Window_Form\\Clinic_Window_Form.csproj": {}
   },
   "projects": {
-    "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\Clinic_Window_Form.csproj": {
+    "C:\\Users\\chica\\source\\repos\\newajlabre\\Clinic_Window_Form\\Clinic_Window_Form.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\Clinic_Window_Form.csproj",
+        "projectUniqueName": "C:\\Users\\chica\\source\\repos\\newajlabre\\Clinic_Window_Form\\Clinic_Window_Form.csproj",
         "projectName": "Clinic_Window_Form",
-        "projectPath": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\Clinic_Window_Form.csproj",
+        "projectPath": "C:\\Users\\chica\\source\\repos\\newajlabre\\Clinic_Window_Form\\Clinic_Window_Form.csproj",
         "packagesPath": "C:\\Users\\chica\\.nuget\\packages\\",
-        "outputPath": "D:\\One Drive\\OneDrive - Polytechnic University of the Philippines\\Documents\\GitHub\\Clinic_ConsultationForm\\Clinic_Window_Form\\obj\\",
+        "outputPath": "C:\\Users\\chica\\source\\repos\\newajlabre\\Clinic_Window_Form\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
