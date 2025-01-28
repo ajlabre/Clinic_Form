@@ -46,6 +46,7 @@ namespace clinic_form
                         AddUser();
                         Console.WriteLine();
                         DisplayActions();
+                        Console.WriteLine();
 
                         break;
 
@@ -54,6 +55,7 @@ namespace clinic_form
                         ViewClient();
                         Console.WriteLine();
                         DisplayActions();
+                        Console.WriteLine();
 
                         break;
 
@@ -62,13 +64,16 @@ namespace clinic_form
                         ViewAdmin();
                         Console.WriteLine();
                         DisplayActions();
+                        Console.WriteLine();
 
                         break;
+
                     case "add":
 
                         AddAdmin();
                         Console.WriteLine();
                         DisplayActions();
+                        Console.WriteLine();
 
                         break;
                     default:
@@ -94,7 +99,6 @@ namespace clinic_form
         public static string EnterAction()
 
         {
-
             Console.Write("Enter Action: ");
             return Console.ReadLine()?.ToLower();
 
@@ -138,14 +142,35 @@ namespace clinic_form
             string toSearch = Console.ReadLine();
 
             return ClinicManage.ViewClient(toSearch);
+
+            //for (int i = 0; i < ClinicManage.name.Count; i++)
+            //    {
+            //        if (ClinicManage.name[i] == toSearch)
+            //        {
+            //            Console.WriteLine("Name: " + ClinicManage.name[i]);
+            //            Console.WriteLine("Address: " + ClinicManage.address[i]);
+            //            Console.WriteLine("Birthdate: " + ClinicManage.bdate[i]);
+
+
         }
 
         public static bool ViewAdmin()
         {
+
             Console.Write("Search admin: ");
             string toSearch = Console.ReadLine();
 
+            //return ClinicManage.ViewAdmin(toSearch);
+
+            //for (int i = 0; i < ClinicManage.username.Count; i++)
+            //{
+            //    Console.WriteLine("Username: " + ClinicManage.username[i]);
+            //    Console.WriteLine("Pin: " + ClinicManage.pin[i]);
+
+            //}
+
             return ClinicManage.ViewAdmin(toSearch);
+
 
         }
         public static void AddAdmin()

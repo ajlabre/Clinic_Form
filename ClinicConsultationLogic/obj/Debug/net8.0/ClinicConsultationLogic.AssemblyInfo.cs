@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicConsultationLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632f930c959206f298053fc6a446ec741371e0e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ea604c641a6302f4a2804fad075b59975041199")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicConsultationLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicConsultationLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

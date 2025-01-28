@@ -7,21 +7,30 @@
         //LIST - LOGIN METHOD - LOGIN ADMIN
         //LIST - REGISTER METHOD - REGISTER ADMIN
 
-        static List<string> name = new List<string>();
-        static List<string> address = new List<string>();
-        static List<string> bdate = new List<string>();
-        static List<string> gender = new List<string>();
-        static List<string> email = new List<string>();
-        static List<string> mobnum = new List<string>();
-        static List<string> medhistory = new List<string>();
+        public static List<string> name = new List<string>();
+        public static List<string> address = new List<string>();
+        public static List<string> bdate = new List<string>();
+        public static List<string> gender = new List<string>();
+        public static List<string> email = new List<string>();
+        public static List<string> mobnum = new List<string>();
+        public static List<string> medhistory = new List<string>();
 
         //ADMIN
-        static List<string> username = new List<string>();
-        static List<string> pin = new List<string>();
+        public static List<string> username = new List<string>();
+        public static List<string> pin = new List<string>();
 
         public static bool ViewClient(string toSearch)
         {
             bool isExisting = name.Contains(toSearch);
+
+            if (isExisting)
+            {
+                Console.WriteLine("Client scheduled.");
+            }
+            else
+            {
+                Console.WriteLine(toSearch + " Client not found.");
+            }
 
             return isExisting;
         }
@@ -29,6 +38,15 @@
         public static bool ViewAdmin(string toSearch)
         {
             bool isExisting = username.Contains(toSearch);
+
+            if (isExisting)
+            {
+                Console.WriteLine("Admin found.");
+            }
+            else
+            {
+                Console.WriteLine(toSearch + " Admin not found.");
+            }
 
             return isExisting;
         }
