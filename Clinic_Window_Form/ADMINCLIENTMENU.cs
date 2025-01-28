@@ -25,6 +25,12 @@ namespace Clinic_Window_Form
         }
         private void btnRegisterAdmin_Click(object sender, EventArgs e)
         {
+            qstnAdmin.Visible = true;
+            qstnClient.Visible = true;
+
+            btnRegisterAdmin.Visible = true;
+            btnRegisterClient.Visible = true;
+
             REGISTERADMIN RegisterAdmin = new REGISTERADMIN();
             RegisterAdmin.Show();
             Hide();
@@ -45,6 +51,11 @@ namespace Clinic_Window_Form
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCheckAdmin_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

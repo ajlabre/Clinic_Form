@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Microsoft.VisualBasic.Logging;
+﻿using ClinicConsultationLogic;
 
 namespace Clinic_Window_Form
 {
@@ -27,14 +18,63 @@ namespace Clinic_Window_Form
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-            ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
-            AdminClientMenu.Show();
-            Hide();
+            //    lblusername.Visible = true;
+            //    lblPIN.Visible = true;
+            //    lblConsultationForm.Visible = true;
+            //    lblRegisterAdmin.Visible = true;
+
+            //    txtboxRegisterUser.Visible = true;
+            //    txtboxRegisterPin.Visible = true;
+            //    btnConfirm.Visible = true;
+            //    btnCancel.Visible = true;
+
+            ClinicManage.AddAdmin(txtboxRegisterUser.Text,
+            txtboxRegisterPin.Text);
+
+            txtboxRegisterUser.Text = "";
+            txtboxRegisterPin.Text = "";
+
+            MessageBox.Show("Admin Registered Successfully",
+            "Admin Registration", MessageBoxButtons.OK);
+
+            btnCheckAdmin.Visible = true;
+            //ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
+            //AdminClientMenu.Show();
+            //Hide();
         }
 
         private void REGISTERADMIN_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCheckAdmin_Click(object sender, EventArgs e)
+        {
+            lblusername.Visible = true;
+            txtboxRegisterUser.Visible = true;
+            btnCheckAdmin.Visible = true;
+            btnCheckinUser.Visible = true;
+
+            btnConfirm.Visible = false;
+            lblPIN.Visible = false;
+            txtboxRegisterPin.Visible = false;
+
+        }
+
+        private void btnCheckinUser_Click(object sender, EventArgs e)
+        {
+            var result = ClinicManage.ViewAdmin(txtboxRegisterUser.Text);
+
+            if (result)
+            {
+                MessageBox.Show("Admin exists.",
+                "Admin Check", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("Admin does not exists.",
+                "Admin Check", MessageBoxButtons.OK);
+            }
         }
     }
 }

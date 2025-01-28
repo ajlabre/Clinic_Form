@@ -38,6 +38,8 @@
             lblConsultationForm = new Label();
             lblRegisterAdmin = new Label();
             btnCancel = new Button();
+            btnCheckAdmin = new Button();
+            btnCheckinUser = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -58,6 +60,7 @@
             // 
             txtboxRegisterPin.Location = new Point(234, 169);
             txtboxRegisterPin.Name = "txtboxRegisterPin";
+            txtboxRegisterPin.PasswordChar = '*';
             txtboxRegisterPin.Size = new Size(216, 23);
             txtboxRegisterPin.TabIndex = 40;
             // 
@@ -134,12 +137,42 @@
             btnCancel.UseVisualStyleBackColor = false;
             btnCancel.Click += btnCancel_Click;
             // 
+            // btnCheckAdmin
+            // 
+            btnCheckAdmin.BackColor = SystemColors.GradientActiveCaption;
+            btnCheckAdmin.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCheckAdmin.ForeColor = SystemColors.ControlText;
+            btnCheckAdmin.Location = new Point(246, 206);
+            btnCheckAdmin.Name = "btnCheckAdmin";
+            btnCheckAdmin.Size = new Size(143, 30);
+            btnCheckAdmin.TabIndex = 44;
+            btnCheckAdmin.Text = "CHECK";
+            btnCheckAdmin.UseVisualStyleBackColor = false;
+            btnCheckAdmin.Visible = false;
+            btnCheckAdmin.Click += btnCheckAdmin_Click;
+            // 
+            // btnCheckinUser
+            // 
+            btnCheckinUser.BackColor = SystemColors.GradientActiveCaption;
+            btnCheckinUser.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCheckinUser.ForeColor = SystemColors.ControlText;
+            btnCheckinUser.Location = new Point(471, 107);
+            btnCheckinUser.Name = "btnCheckinUser";
+            btnCheckinUser.Size = new Size(78, 30);
+            btnCheckinUser.TabIndex = 45;
+            btnCheckinUser.Text = "CHECK";
+            btnCheckinUser.UseVisualStyleBackColor = false;
+            btnCheckinUser.Visible = false;
+            btnCheckinUser.Click += btnCheckinUser_Click;
+            // 
             // REGISTERADMIN
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(626, 258);
+            Controls.Add(btnCheckinUser);
+            Controls.Add(btnCheckAdmin);
             Controls.Add(btnCancel);
             Controls.Add(lblRegisterAdmin);
             Controls.Add(btnConfirm);
@@ -168,5 +201,7 @@
         private Label lblConsultationForm;
         private Label lblRegisterAdmin;
         private Button btnCancel;
+        private Button btnCheckAdmin;
+        private Button btnCheckinUser;
     }
 }

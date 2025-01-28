@@ -37,10 +37,6 @@ namespace Clinic_Window_Form
             btnRegisterAdmin = new Button();
             btnExit = new Button();
             btnRegisterClient = new Button();
-            btnCheckAdmin = new Button();
-            lblcheckadmin = new Label();
-            lblviewclient = new Label();
-            btnViewClient = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -102,7 +98,7 @@ namespace Clinic_Window_Form
             // 
             btnExit.BackColor = SystemColors.GradientActiveCaption;
             btnExit.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(473, 275);
+            btnExit.Location = new Point(473, 181);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(68, 22);
             btnExit.TabIndex = 15;
@@ -122,61 +118,12 @@ namespace Clinic_Window_Form
             btnRegisterClient.UseVisualStyleBackColor = false;
             btnRegisterClient.Click += btnRegisterClient_Click;
             // 
-            // btnCheckAdmin
-            // 
-            btnCheckAdmin.BackColor = SystemColors.GradientActiveCaption;
-            btnCheckAdmin.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnCheckAdmin.Location = new Point(81, 197);
-            btnCheckAdmin.Name = "btnCheckAdmin";
-            btnCheckAdmin.Size = new Size(163, 32);
-            btnCheckAdmin.TabIndex = 17;
-            btnCheckAdmin.Text = "CHECK ADMIN";
-            btnCheckAdmin.UseVisualStyleBackColor = false;
-            // 
-            // lblcheckadmin
-            // 
-            lblcheckadmin.AutoSize = true;
-            lblcheckadmin.BackColor = SystemColors.GradientInactiveCaption;
-            lblcheckadmin.Font = new Font("Cambria", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblcheckadmin.Location = new Point(81, 243);
-            lblcheckadmin.Name = "lblcheckadmin";
-            lblcheckadmin.Size = new Size(163, 17);
-            lblcheckadmin.TabIndex = 18;
-            lblcheckadmin.Text = "\"Check admin if exists.\"";
-            // 
-            // lblviewclient
-            // 
-            lblviewclient.AutoSize = true;
-            lblviewclient.BackColor = SystemColors.GradientInactiveCaption;
-            lblviewclient.Font = new Font("Cambria", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblviewclient.Location = new Point(323, 243);
-            lblviewclient.Name = "lblviewclient";
-            lblviewclient.Size = new Size(149, 17);
-            lblviewclient.TabIndex = 20;
-            lblviewclient.Text = "\"View client if exists.\"";
-            lblviewclient.Click += label1_Click;
-            // 
-            // btnViewClient
-            // 
-            btnViewClient.BackColor = SystemColors.GradientActiveCaption;
-            btnViewClient.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnViewClient.Location = new Point(321, 197);
-            btnViewClient.Name = "btnViewClient";
-            btnViewClient.Size = new Size(163, 32);
-            btnViewClient.TabIndex = 19;
-            btnViewClient.Text = "VIEW CLIENT";
-            btnViewClient.UseVisualStyleBackColor = false;
-            // 
             // ADMINCLIENTMENU
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(560, 315);
-            Controls.Add(lblviewclient);
-            Controls.Add(btnViewClient);
-            Controls.Add(lblcheckadmin);
-            Controls.Add(btnCheckAdmin);
+            ClientSize = new Size(560, 224);
             Controls.Add(btnRegisterClient);
             Controls.Add(btnExit);
             Controls.Add(btnRegisterAdmin);
@@ -205,9 +152,5 @@ namespace Clinic_Window_Form
         private Button btnRegisterAdmin;
         private Button btnExit;
         private Button btnRegisterClient;
-        private Button btnCheckAdmin;
-        private Label lblcheckadmin;
-        private Label lblviewclient;
-        private Button btnViewClient;
     }
 }

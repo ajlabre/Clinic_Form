@@ -144,15 +144,15 @@ namespace clinic_form
             return ClinicManage.ViewClient(toSearch);
 
             //for (int i = 0; i < ClinicManage.name.Count; i++)
+            //{
+            //    if (ClinicManage.name[i] == toSearch)
             //    {
-            //        if (ClinicManage.name[i] == toSearch)
-            //        {
-            //            Console.WriteLine("Name: " + ClinicManage.name[i]);
-            //            Console.WriteLine("Address: " + ClinicManage.address[i]);
-            //            Console.WriteLine("Birthdate: " + ClinicManage.bdate[i]);
+            //        Console.WriteLine("Name: " + ClinicManage.name[i]);
+            //        Console.WriteLine("Address: " + ClinicManage.address[i]);
+            //        Console.WriteLine("Birthdate: " + ClinicManage.bdate[i]);
+            //    }
 
-
-        }
+                }
 
         public static bool ViewAdmin()
         {
@@ -162,12 +162,12 @@ namespace clinic_form
 
             //return ClinicManage.ViewAdmin(toSearch);
 
-            //for (int i = 0; i < ClinicManage.username.Count; i++)
-            //{
-            //    Console.WriteLine("Username: " + ClinicManage.username[i]);
-            //    Console.WriteLine("Pin: " + ClinicManage.pin[i]);
+            for (int i = 0; i < ClinicManage.username.Count; i++)
+            {
+                Console.WriteLine("Username: " + ClinicManage.username[i]);
+                Console.WriteLine("Pin: " + ClinicManage.pin[i]);
 
-            //}
+            }
 
             return ClinicManage.ViewAdmin(toSearch);
 

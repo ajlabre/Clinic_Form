@@ -109,3 +109,7 @@ C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\bin\Debug\net8.0-windo
 C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\bin\Debug\net8.0-windows\Clinic_Window_Form.pdb
 C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.genruntimeconfig.cache
 C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\obj\Debug\net8.0-windows\ref\Clinic_Window_Form.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\bin\Debug\net8.0-windows\ClinicConsultationLogic.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\bin\Debug\net8.0-windows\ClinicConsultationLogic.pdb
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_Window_Form.csproj.AssemblyReference.cache
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Window_Form\obj\Debug\net8.0-windows\Clinic_W.CBCADE5E.Up2Date

@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Clinic_Window_Form/1.0.0": {
+        "dependencies": {
+          "ClinicConsultationLogic": "1.0.0"
+        },
         "runtime": {
           "Clinic_Window_Form.dll": {}
+        }
+      },
+      "ClinicConsultationLogic/1.0.0": {
+        "runtime": {
+          "ClinicConsultationLogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "Clinic_Window_Form/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClinicConsultationLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
