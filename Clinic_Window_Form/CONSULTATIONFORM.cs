@@ -12,12 +12,10 @@ namespace Clinic_Window_Form
 {
     public partial class CONSULTATIONFORM : Form
     {
-        public List<string> ConsultationInfo { get; private set; }
         public CONSULTATIONFORM()
         {
             InitializeComponent();
 
-            ConsultationInfo = new List<string>();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -29,33 +27,9 @@ namespace Clinic_Window_Form
 
         private void btnCONFIRM_Click(object sender, EventArgs e)
         {
-            string fullname = txtboxFullName.Text;
-            string houseno = txtboxHouseNo.Text;
-            string street = txtboxStreet.Text;
-            string villagesubd = txtboxVillageSubd.Text;
-            string brgy = txtboxBrgy.Text;
-            string cityprovince = txtboxCityProvince.Text;
-            string gender = txtboxGender.Text;
-            string emailadd = txtboxEmailAdd.Text;
-            string birthdate = txtboxBirthdate.Text;
-            string mobilenum = txtboxMobileNum.Text;
-            string medicalhistory = txtboxMedHistory.Text;
-
-            if (fullname == ConsultationRegister.fullname && houseno == ConsultationRegister.houseno && street == ConsultationRegister.street
-                && villagesubd == ConsultationRegister.villagesubd && brgy == ConsultationRegister.brgy && cityprovince == ConsultationRegister.cityprovince
-                && gender == ConsultationRegister.Gender && emailadd == ConsultationRegister.emailadd && birthdate == ConsultationRegister.birthdate
-                && mobilenum == ConsultationRegister.mobilenum && medicalhistory == ConsultationRegister.medicalhistory)
-            {
-                MessageBox.Show("Client succesfully registered.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                VIEWFORM viewForm = new VIEWFORM();
-                viewForm.Show();
-                Hide();
-            }
-            else
-            {
-                MessageBox.Show("Fill out all the fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            ADMINCLIENTMENU AdminClientMenu = new ADMINCLIENTMENU();
+            AdminClientMenu.Show();
+            Hide();
         }
         private void CONSULTATIONFORM_Load(object sender, EventArgs e)
         {
@@ -64,17 +38,6 @@ namespace Clinic_Window_Form
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            txtboxFullName.Clear();
-            txtboxHouseNo.Clear();
-            txtboxStreet.Clear();
-            txtboxVillageSubd.Clear();
-            txtboxBrgy.Clear();
-            txtboxCityProvince.Clear();
-            txtboxGender.Clear();
-            txtboxEmailAdd.Clear();
-            txtboxBirthdate.Clear();
-            txtboxMobileNum.Clear();
-            txtboxMedHistory.Clear();
         }
     }
 }

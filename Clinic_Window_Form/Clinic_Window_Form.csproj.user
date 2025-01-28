@@ -13,9 +13,6 @@
     <Compile Update="REGISTERADMIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="VIEWFORM.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="WELCOMEFORMMENU.cs">
       <SubType>Form</SubType>
     </Compile>

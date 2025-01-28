@@ -38,6 +38,7 @@ namespace Clinic_Window_Form
             qstnClient = new Label();
             lblRegister = new Label();
             btnRegisterAdmin = new Button();
+            btnExit = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -133,12 +134,25 @@ namespace Clinic_Window_Form
             btnRegisterAdmin.UseVisualStyleBackColor = false;
             btnRegisterAdmin.Click += btnRegisterAdmin_Click;
             // 
+            // btnExit
+            // 
+            btnExit.BackColor = SystemColors.GradientActiveCaption;
+            btnExit.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnExit.Location = new Point(473, 227);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(68, 22);
+            btnExit.TabIndex = 15;
+            btnExit.Text = "EXIT";
+            btnExit.UseVisualStyleBackColor = false;
+            btnExit.Click += btnExit_Click;
+            // 
             // ADMINCLIENTMENU
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(563, 270);
+            Controls.Add(btnExit);
             Controls.Add(btnRegisterAdmin);
             Controls.Add(lblRegister);
             Controls.Add(btnREGISTER);
@@ -170,5 +184,6 @@ namespace Clinic_Window_Form
         private Label qstnClient;
         private Label lblRegister;
         private Button btnRegisterAdmin;
+        private Button btnExit;
     }
 }

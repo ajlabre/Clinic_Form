@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chica\\source\\repos\\ajlabrenew\\Clinic_Form\\Clinic_Form.csproj": {}
+    "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\ClinicConsultationLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chica\\source\\repos\\ajlabrenew\\Clinic_Form\\Clinic_Form.csproj": {
+    "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\ClinicConsultationLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\Clinic_Form\\Clinic_Form.csproj",
-        "projectName": "Clinic_Form",
-        "projectPath": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\Clinic_Form\\Clinic_Form.csproj",
+        "projectUniqueName": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\ClinicConsultationLogic.csproj",
+        "projectName": "ClinicConsultationLogic",
+        "projectPath": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\ClinicConsultationLogic.csproj",
         "packagesPath": "C:\\Users\\chica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\Clinic_Form\\obj\\",
+        "outputPath": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

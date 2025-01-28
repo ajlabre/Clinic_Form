@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic_Form", "Clinic_Form.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic_Window_Form", "..\Clinic_Window_Form\Clinic_Window_Form.csproj", "{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{658F6574-7426-433B-ABCB-57A28BBD9A5E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicConsultationLogic", "..\ClinicConsultationLogic\ClinicConsultationLogic.csproj", "{2BC1EF72-7D6B-4ADC-8317-2CAB4211861B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E9E9344-76B6-43C9-A6A4-448A8BAFFBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC1EF72-7D6B-4ADC-8317-2CAB4211861B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC1EF72-7D6B-4ADC-8317-2CAB4211861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC1EF72-7D6B-4ADC-8317-2CAB4211861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC1EF72-7D6B-4ADC-8317-2CAB4211861B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

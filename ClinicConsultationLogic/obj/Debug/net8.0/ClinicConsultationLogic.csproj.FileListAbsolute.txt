@@ -1,0 +1,5 @@
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.AssemblyInfoInputs.cache
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.AssemblyInfo.cs
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.csproj.CoreCompileInputs.cache
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.sourcelink.json

@@ -26,27 +26,8 @@ namespace Clinic_Window_Form
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-
-            AdminRegister.Username = txtboxRegisterUser.Text;
-            AdminRegister.Password = txtboxRegisterPin.Text;
-
-            MessageBox.Show("Admin registered successfully!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            VIEWFORM viewForm = new VIEWFORM(
-            ConsultationRegister.Text,
-            "Full Name",
-            "Street",
-            "Village/Subd",
-            "Barangay",
-            "City/Province",
-            "Gender",
-            "Email Address",
-            "MM/DD/YYYY",
-            "Mobile No.",
-            "Medical History",
-            "Others Medical History"
-    );
-            viewForm.Show();
+            ADMINLOGIN AdminLgn = new ADMINLOGIN();
+            AdminLgn.Show();
             Hide();
         }
 
