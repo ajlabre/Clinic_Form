@@ -17,33 +17,12 @@ namespace Clinic_Window_Form
             InitializeComponent();
         }
 
-        private void qstnAdmin_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnREGISTER_Click(object sender, EventArgs e)
         {
             WELCOMEFORMMENU Welcomefrm = new WELCOMEFORMMENU();
             Welcomefrm.Show();
             Hide();
         }
-
-        private void qstnClient_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ADMINCLIENTMENU_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRegisterAdmin_Click(object sender, EventArgs e)
         {
             REGISTERADMIN RegisterAdmin = new REGISTERADMIN();
@@ -54,6 +33,13 @@ namespace Clinic_Window_Form
         private void btnExit_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void btnRegisterClient_Click(object sender, EventArgs e)
+        {
+            CONSULTATIONFORM Consultfrm = new CONSULTATIONFORM();
+            Consultfrm.Show();
+            Hide();
         }
     }
 }

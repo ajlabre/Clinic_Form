@@ -33,10 +33,10 @@ namespace Clinic_Window_Form
             ClinicImage = new PictureBox();
             lblConsultationForm = new Label();
             qstnAdmin = new Label();
-            btnREGISTER = new Button();
             qstnClient = new Label();
             btnRegisterAdmin = new Button();
             btnExit = new Button();
+            btnRegisterClient = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -48,7 +48,6 @@ namespace Clinic_Window_Form
             ClinicImage.Size = new Size(57, 61);
             ClinicImage.TabIndex = 8;
             ClinicImage.TabStop = false;
-            ClinicImage.Click += pictureBox1_Click;
             // 
             // lblConsultationForm
             // 
@@ -71,19 +70,6 @@ namespace Clinic_Window_Form
             qstnAdmin.Size = new Size(145, 17);
             qstnAdmin.TabIndex = 9;
             qstnAdmin.Text = "\"Are you an Admin?\"";
-            qstnAdmin.Click += qstnAdmin_Click;
-            // 
-            // btnREGISTER
-            // 
-            btnREGISTER.BackColor = SystemColors.GradientActiveCaption;
-            btnREGISTER.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnREGISTER.Location = new Point(329, 100);
-            btnREGISTER.Name = "btnREGISTER";
-            btnREGISTER.Size = new Size(151, 32);
-            btnREGISTER.TabIndex = 12;
-            btnREGISTER.Text = "REGISTER";
-            btnREGISTER.UseVisualStyleBackColor = false;
-            btnREGISTER.Click += btnREGISTER_Click;
             // 
             // qstnClient
             // 
@@ -95,7 +81,6 @@ namespace Clinic_Window_Form
             qstnClient.Size = new Size(129, 17);
             qstnClient.TabIndex = 11;
             qstnClient.Text = "\"Are you a Client?\"";
-            qstnClient.Click += qstnClient_Click;
             // 
             // btnRegisterAdmin
             // 
@@ -121,22 +106,33 @@ namespace Clinic_Window_Form
             btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
+            // btnRegisterClient
+            // 
+            btnRegisterClient.BackColor = SystemColors.GradientActiveCaption;
+            btnRegisterClient.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnRegisterClient.Location = new Point(323, 100);
+            btnRegisterClient.Name = "btnRegisterClient";
+            btnRegisterClient.Size = new Size(163, 32);
+            btnRegisterClient.TabIndex = 16;
+            btnRegisterClient.Text = "REGISTER FORM";
+            btnRegisterClient.UseVisualStyleBackColor = false;
+            btnRegisterClient.Click += btnRegisterClient_Click;
+            // 
             // ADMINCLIENTMENU
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(563, 217);
+            Controls.Add(btnRegisterClient);
             Controls.Add(btnExit);
             Controls.Add(btnRegisterAdmin);
-            Controls.Add(btnREGISTER);
             Controls.Add(qstnClient);
             Controls.Add(qstnAdmin);
             Controls.Add(ClinicImage);
             Controls.Add(lblConsultationForm);
             Name = "ADMINCLIENTMENU";
             Text = "MAIN MENU ";
-            Load += ADMINCLIENTMENU_Load;
             ((System.ComponentModel.ISupportInitialize)ClinicImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -152,9 +148,9 @@ namespace Clinic_Window_Form
         private PictureBox ClinicImage;
         private Label lblConsultationForm;
         private Label qstnAdmin;
-        private Button btnREGISTER;
         private Label qstnClient;
         private Button btnRegisterAdmin;
         private Button btnExit;
+        private Button btnRegisterClient;
     }
 }
