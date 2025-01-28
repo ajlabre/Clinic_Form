@@ -4,9 +4,6 @@
     <Compile Update="ADMINCLIENTMENU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ADMINLOGIN.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="CONSULTATIONFORM.cs">
       <SubType>Form</SubType>
     </Compile>

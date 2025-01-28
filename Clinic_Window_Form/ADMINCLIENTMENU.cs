@@ -22,13 +22,6 @@ namespace Clinic_Window_Form
 
         }
 
-        private void btnVIEW_Click(object sender, EventArgs e)
-        {
-            ADMINLOGIN AdminMenu = new ADMINLOGIN();
-            AdminMenu.Show();
-            Hide();
-        }
-
         private void btnREGISTER_Click(object sender, EventArgs e)
         {
             WELCOMEFORMMENU Welcomefrm = new WELCOMEFORMMENU();

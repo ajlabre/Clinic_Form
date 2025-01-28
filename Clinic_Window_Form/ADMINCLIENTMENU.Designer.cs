@@ -33,10 +33,8 @@ namespace Clinic_Window_Form
             ClinicImage = new PictureBox();
             lblConsultationForm = new Label();
             qstnAdmin = new Label();
-            btnVIEW = new Button();
             btnREGISTER = new Button();
             qstnClient = new Label();
-            lblRegister = new Label();
             btnRegisterAdmin = new Button();
             btnExit = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
@@ -75,18 +73,6 @@ namespace Clinic_Window_Form
             qstnAdmin.Text = "\"Are you an Admin?\"";
             qstnAdmin.Click += qstnAdmin_Click;
             // 
-            // btnVIEW
-            // 
-            btnVIEW.BackColor = SystemColors.GradientActiveCaption;
-            btnVIEW.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnVIEW.Location = new Point(90, 100);
-            btnVIEW.Name = "btnVIEW";
-            btnVIEW.Size = new Size(163, 32);
-            btnVIEW.TabIndex = 10;
-            btnVIEW.Text = "VIEW RECORD";
-            btnVIEW.UseVisualStyleBackColor = false;
-            btnVIEW.Click += btnVIEW_Click;
-            // 
             // btnREGISTER
             // 
             btnREGISTER.BackColor = SystemColors.GradientActiveCaption;
@@ -111,22 +97,11 @@ namespace Clinic_Window_Form
             qstnClient.Text = "\"Are you a Client?\"";
             qstnClient.Click += qstnClient_Click;
             // 
-            // lblRegister
-            // 
-            lblRegister.AutoSize = true;
-            lblRegister.BackColor = SystemColors.GradientInactiveCaption;
-            lblRegister.Font = new Font("Cambria", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblRegister.Location = new Point(163, 232);
-            lblRegister.Name = "lblRegister";
-            lblRegister.Size = new Size(270, 17);
-            lblRegister.TabIndex = 13;
-            lblRegister.Text = "\"Register if you don't have an account.\"";
-            // 
             // btnRegisterAdmin
             // 
             btnRegisterAdmin.BackColor = SystemColors.GradientActiveCaption;
             btnRegisterAdmin.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnRegisterAdmin.Location = new Point(206, 197);
+            btnRegisterAdmin.Location = new Point(81, 100);
             btnRegisterAdmin.Name = "btnRegisterAdmin";
             btnRegisterAdmin.Size = new Size(163, 32);
             btnRegisterAdmin.TabIndex = 14;
@@ -138,7 +113,7 @@ namespace Clinic_Window_Form
             // 
             btnExit.BackColor = SystemColors.GradientActiveCaption;
             btnExit.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(473, 227);
+            btnExit.Location = new Point(473, 176);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(68, 22);
             btnExit.TabIndex = 15;
@@ -151,13 +126,11 @@ namespace Clinic_Window_Form
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(563, 270);
+            ClientSize = new Size(563, 217);
             Controls.Add(btnExit);
             Controls.Add(btnRegisterAdmin);
-            Controls.Add(lblRegister);
             Controls.Add(btnREGISTER);
             Controls.Add(qstnClient);
-            Controls.Add(btnVIEW);
             Controls.Add(qstnAdmin);
             Controls.Add(ClinicImage);
             Controls.Add(lblConsultationForm);
@@ -179,10 +152,8 @@ namespace Clinic_Window_Form
         private PictureBox ClinicImage;
         private Label lblConsultationForm;
         private Label qstnAdmin;
-        private Button btnVIEW;
         private Button btnREGISTER;
         private Label qstnClient;
-        private Label lblRegister;
         private Button btnRegisterAdmin;
         private Button btnExit;
     }
