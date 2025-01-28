@@ -1,25 +1,30 @@
 ﻿using System.Collections.Concurrent;
 using System;
+using ClinicConsultationLogic;
+using System.Net.NetworkInformation;
 
 namespace clinic_form
 {
     internal class Program
     {
 
-        static List<string> name = new List<string>();
-        static List<string> address = new List<string>();
-        static List<string> bdate = new List<string>();
-        static List<string> gender = new List<string>();
-        static List<string> email = new List<string>();
-        static List<string> date = new List<string>();
-        static List<string> mobnum = new List<string>();
-        static List<string> medhistory = new List<string>();
+        //static List<string> name = new List<string>();
+        //static List<string> address = new List<string>();
+        //static List<string> bdate = new List<string>();
+        //static List<string> gender = new List<string>();
+        //static List<string> email = new List<string>();
+        //static List<string> mobnum = new List<string>();
+        //static List<string> medhistory = new List<string>();
+
+        //static List<string> username = new List<string>();
+        //static List<string> pin = new List<string>();
 
         static string[] action = new[]
             {
                 "Please type 'next' to proceed with your consultation.",
-                "Please type 'cancel' to cancel your consultation.",
-                "Please type 'search' to search your name."
+                "Please type 'view' to view your name.",
+                "Please type 'add' to register a new admin.",
+                "Please type 'exit' to exit the consultation form."
             };
 
         static void Main(string[] args)
@@ -43,18 +48,18 @@ namespace clinic_form
 
                         break;
 
-                    case "search":
+                    case "view":
 
-                        FindUser();
+                        ViewClient();
                         Console.WriteLine();
                         DisplayActions();
 
                         break;
 
+                    case "add":
 
-                    case "cancel":
-
-                        Console.WriteLine("Happy to be of service!");
+                        AddAdmin();
+                        Console.WriteLine();
                         DisplayActions();
 
                         break;
@@ -78,7 +83,6 @@ namespace clinic_form
                 Console.WriteLine(act);
             }
         }
-
         public static string EnterAction()
 
         {
@@ -103,39 +107,44 @@ namespace clinic_form
             string EnterGender = Console.ReadLine();
             Console.Write("Enter email address: ");
             string EnterEmail = Console.ReadLine();
-            Console.Write("Enter date today: ");
-            string EnterDate = Console.ReadLine();
             Console.Write("Enter mobile number: ");
             string EnterMobnum = Console.ReadLine();
             Console.Write("Enter medical history: ");
             string EnterMhistory = Console.ReadLine();
 
-            name.Add(EnterName);
-            address.Add(EnterAddress);
-            bdate.Add(EnterBdate);
-            gender.Add(EnterGender);
-            email.Add(EnterEmail);
-            date.Add(EnterDate);
-            mobnum.Add(EnterMobnum);
-            medhistory.Add(EnterMhistory);
+            ClinicConsultationLogic.AddUser(EnterName, EnterAddress, EnterBdate,
+            EnterGender, EnterEmail, EnterMobnum, EnterMhistory);
 
             Console.WriteLine("Successfully added client: " + EnterName);
         }
-        public static bool FindUser()
+        public static bool ViewClient(string name)
         {
-            Console.Write("Search name: ");
+            Console.Write("Search name: "); 
             string toSearch = Console.ReadLine();
 
-            if (name.Contains(toSearch))
-            {
-                Console.WriteLine(name + " :This client exists.");
-                return true;
-            }
-            else
-            {
-                Console.WriteLine(toSearch + " does not exist.");
-                return false;
-            }
+            Console.WriteLine("This client exists: " + toSearch);
+            return ClinicConsultationLogic.ViewClient(toSearch) ;
         }
+        public static void AddAdmin()
+        {
+            string username = string.Empty;
+            string pin = string.Empty;
+
+            Console.WriteLine("ADD CLIENT");
+            Console.WriteLine();
+
+            Console.Write("Enter Username: ");
+            string EnterUsername = Console.ReadLine();
+
+            Console.Write("Enter Pin: ");
+            string EnterPin = Console.ReadLine();
+
+            ClinicConsultationLogic.AddAdmin(EnterUsername,EnterPin);
+
+            Console.WriteLine("Successfully added admin: " + EnterUsername);
+
+        }
+
+
     }
 }

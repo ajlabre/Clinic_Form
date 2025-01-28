@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ClinicConsultationLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClinicConsultationLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicConsultationLogic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClinicConsultationLogic/1.0.0": {
+      "type": "project",
+      "path": "../ClinicConsultationLogic/ClinicConsultationLogic.csproj",
+      "msbuildProject": "../ClinicConsultationLogic/ClinicConsultationLogic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ClinicConsultationLogic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\chica\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\ClinicConsultationLogic.csproj": {
+              "projectPath": "C:\\Users\\chica\\source\\repos\\ajlabrenew\\ClinicConsultationLogic\\ClinicConsultationLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

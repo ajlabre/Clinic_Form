@@ -3,3 +3,10 @@ C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\
 C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.AssemblyInfo.cs
 C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.csproj.CoreCompileInputs.cache
 C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.sourcelink.json
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\bin\Debug\net8.0\ClinicConsultationLogic.deps.json
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\bin\Debug\net8.0\ClinicConsultationLogic.dll
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\bin\Debug\net8.0\ClinicConsultationLogic.pdb
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.dll
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\refint\ClinicConsultationLogic.dll
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.pdb
+C:\Users\chica\source\repos\ajlabrenew\ClinicConsultationLogic\obj\Debug\net8.0\ref\ClinicConsultationLogic.dll

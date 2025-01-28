@@ -42,3 +42,22 @@ C:\Users\PUP-CITE-L2PC25\Documents\LABRE_DIT 3-1 VSCODE\Clinic_Form\obj\Debug\ne
 C:\Users\PUP-CITE-L2PC25\Documents\LABRE_DIT 3-1 VSCODE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.pdb
 C:\Users\PUP-CITE-L2PC25\Documents\LABRE_DIT 3-1 VSCODE\Clinic_Form\obj\Debug\net8.0\Clinic_Form.genruntimeconfig.cache
 C:\Users\PUP-CITE-L2PC25\Documents\LABRE_DIT 3-1 VSCODE\Clinic_Form\obj\Debug\net8.0\ref\Clinic_Form.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\Clinic_Form.exe
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\Clinic_Form.deps.json
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\Clinic_Form.runtimeconfig.json
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\Clinic_Form.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\Clinic_Form.pdb
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.AssemblyInfoInputs.cache
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.AssemblyInfo.cs
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.csproj.CoreCompileInputs.cache
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.sourcelink.json
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\refint\Clinic_Form.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.pdb
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.genruntimeconfig.cache
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\ref\Clinic_Form.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\ClinicConsultationLogic.dll
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\bin\Debug\net8.0\ClinicConsultationLogic.pdb
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_Form.csproj.AssemblyReference.cache
+C:\Users\chica\source\repos\ajlabrenew\Clinic_Form\obj\Debug\net8.0\Clinic_F.DE9EF89E.Up2Date
