@@ -11,4 +11,10 @@
     <ProjectReference Include="..\ClinicConsultationLogic\ClinicConsultationLogic.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="ClinicConsultationLogic">
+      <HintPath>..\ClinicConsultationLogic\obj\Debug\net8.0\ClinicConsultationLogic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

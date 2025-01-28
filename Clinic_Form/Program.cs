@@ -23,6 +23,7 @@ namespace clinic_form
             {
                 "Please type 'next' to proceed with your consultation.",
                 "Please type 'view' to view your name.",
+                "Please type 'check' to check if admin exists.",
                 "Please type 'add' to register a new admin.",
                 "Please type 'exit' to exit the consultation form."
             };
@@ -56,6 +57,13 @@ namespace clinic_form
 
                         break;
 
+                    case "check":
+
+                        ViewAdmin();
+                        Console.WriteLine();
+                        DisplayActions();
+
+                        break;
                     case "add":
 
                         AddAdmin();
@@ -93,6 +101,13 @@ namespace clinic_form
         }
         public static void AddUser()
         {
+            string name = string.Empty;
+            string address = string.Empty;
+            string bdate = string.Empty;
+            string gender = string.Empty;
+            string email = string.Empty;
+            string mobnum = string.Empty;
+            string medhistory = string.Empty;
 
             Console.WriteLine("ADD CLIENT");
             Console.WriteLine();
@@ -112,18 +127,26 @@ namespace clinic_form
             Console.Write("Enter medical history: ");
             string EnterMhistory = Console.ReadLine();
 
-            ClinicConsultationLogic.AddUser(EnterName, EnterAddress, EnterBdate,
+            ClinicManage.AddUser(EnterName, EnterAddress, EnterBdate,
             EnterGender, EnterEmail, EnterMobnum, EnterMhistory);
 
             Console.WriteLine("Successfully added client: " + EnterName);
         }
-        public static bool ViewClient(string name)
+        public static bool ViewClient()
         {
-            Console.Write("Search name: "); 
+            Console.Write("Search client: "); 
             string toSearch = Console.ReadLine();
 
-            Console.WriteLine("This client exists: " + toSearch);
-            return ClinicConsultationLogic.ViewClient(toSearch) ;
+            return ClinicManage.ViewClient(toSearch);
+        }
+
+        public static bool ViewAdmin()
+        {
+            Console.Write("Search admin: ");
+            string toSearch = Console.ReadLine();
+
+            return ClinicManage.ViewAdmin(toSearch);
+
         }
         public static void AddAdmin()
         {
@@ -139,7 +162,7 @@ namespace clinic_form
             Console.Write("Enter Pin: ");
             string EnterPin = Console.ReadLine();
 
-            ClinicConsultationLogic.AddAdmin(EnterUsername,EnterPin);
+            ClinicManage.AddAdmin(EnterUsername,EnterPin);
 
             Console.WriteLine("Successfully added admin: " + EnterUsername);
 

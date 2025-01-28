@@ -26,6 +26,13 @@
             return isExisting;
         }
 
+        public static bool ViewAdmin(string toSearch)
+        {
+            bool isExisting = username.Contains(toSearch);
+
+            return isExisting;
+        }
+
         public static void AddUser(string EnterName, string EnterAddress, string EnterBdate,
             string EnterGender, string EnterEmail, string EnterMobnum, string EnterMhistory)
         {
