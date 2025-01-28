@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClinicConsultationLogic
 {
-    internal class Logic
+    internal class ClinicManage
     {
 
         static List<string> name = new List<string>();
@@ -19,12 +19,11 @@ namespace ClinicConsultationLogic
         static List<string> medhistory = new List<string>();
 
         static List<string> username = new List<string>();
-        static List<string> password = new List<string>();
+        static List<string> pin = new List<string>();
 
         static string[] action = new[]
             {
                 "Please type 'next' to proceed with your consultation.",
-                "Please type 'cancel' to cancel your consultation.",
                 "Please type 'search' to search your name.",
                 "Please type 'login' to login admin.",
                 "Please type 'register' to register a new admin.",
@@ -59,14 +58,6 @@ namespace ClinicConsultationLogic
 
                         break;
 
-
-                    case "cancel":
-
-                        Console.WriteLine("Happy to be of service!");
-                        DisplayActions();
-
-                        break;
-
                     case "login":
 
                         LoginAdmin();
@@ -87,7 +78,7 @@ namespace ClinicConsultationLogic
                         Console.WriteLine("Incorrect input.");
 
                         break;
-                }
+                } 
 
                 useract = EnterAction();
 
@@ -174,7 +165,7 @@ namespace ClinicConsultationLogic
         public static void RegisterAdmin(){
 
             string Username = string.Empty;
-            string Password = string.Empty;
+            string Pin = string.Empty;
 
             Console.WriteLine("REGISTER CLIENT");
             Console.WriteLine();
@@ -182,19 +173,19 @@ namespace ClinicConsultationLogic
             for (int i = 0; i < username.Count; i++)
             {
                 Console.WriteLine("Username: " + username[i]);
-                Console.WriteLine("Password: " + password[i]);
+                Console.WriteLine("Password: " + pin[i]);
             }
 
             Console.Write("Enter Username: ");
             string EnterUsername = Console.ReadLine();
 
-            Console.Write("Enter Password: ");
-            string EnterPassword = Console.ReadLine();
+            Console.Write("Enter Pin: ");
+            string EnterPin = Console.ReadLine();
 
             username.Add(EnterUsername);
-            password.Add(EnterPassword);
+            pin.Add(EnterPin);
 
-            bool success = username.Contains(EnterUsername) && password.Contains(EnterPassword);
+            bool success = username.Contains(EnterUsername) && pin.Contains(EnterPin);
 
             if (success)
             {

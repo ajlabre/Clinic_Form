@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.Logging;
 
 namespace Clinic_Window_Form
 {
@@ -26,6 +27,12 @@ namespace Clinic_Window_Form
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+
+            string Username = txtboxRegisterUser.Text;
+            string Pin = txtboxRegisterPin.Text;
+
+            ClinicManager.RegisterAdmin(Username, Pin);
+
             ADMINLOGIN AdminLgn = new ADMINLOGIN();
             AdminLgn.Show();
             Hide();
