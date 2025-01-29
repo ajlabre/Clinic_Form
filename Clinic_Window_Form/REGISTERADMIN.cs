@@ -68,12 +68,12 @@ namespace Clinic_Window_Form
             if (result)
             {
                 MessageBox.Show("Admin exists.",
-                "Admin Check", MessageBoxButtons.OK);
+                "Admin Check", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 MessageBox.Show("Admin does not exists.",
-                "Admin Check", MessageBoxButtons.OK);
+                "Admin Check", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }

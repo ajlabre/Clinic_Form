@@ -40,14 +40,15 @@
             lblBirthdate = new Label();
             txtboxMobileNum = new TextBox();
             lblMobileNum = new Label();
-            MedicalHistory = new Label();
+            lblMedicalHistory = new Label();
             lblGender = new Label();
             btnCONFIRM = new Button();
             btnCancel = new Button();
             txtboxGender = new TextBox();
             txtboxBirthdate = new TextBox();
             txtboxMedHistory = new TextBox();
-            btnClear = new Button();
+            btnCheck = new Button();
+            btnCheckClient = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -154,16 +155,16 @@
             lblMobileNum.TabIndex = 30;
             lblMobileNum.Text = "MobileNumber";
             // 
-            // MedicalHistory
+            // lblMedicalHistory
             // 
-            MedicalHistory.AutoSize = true;
-            MedicalHistory.BackColor = SystemColors.GradientInactiveCaption;
-            MedicalHistory.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            MedicalHistory.Location = new Point(31, 395);
-            MedicalHistory.Name = "MedicalHistory";
-            MedicalHistory.Size = new Size(159, 25);
-            MedicalHistory.TabIndex = 32;
-            MedicalHistory.Text = "Medical History";
+            lblMedicalHistory.AutoSize = true;
+            lblMedicalHistory.BackColor = SystemColors.GradientInactiveCaption;
+            lblMedicalHistory.Font = new Font("Cambria", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblMedicalHistory.Location = new Point(31, 395);
+            lblMedicalHistory.Name = "lblMedicalHistory";
+            lblMedicalHistory.Size = new Size(159, 25);
+            lblMedicalHistory.TabIndex = 32;
+            lblMedicalHistory.Text = "Medical History";
             // 
             // lblGender
             // 
@@ -223,18 +224,32 @@
             txtboxMedHistory.Size = new Size(216, 23);
             txtboxMedHistory.TabIndex = 44;
             // 
-            // btnClear
+            // btnCheck
             // 
-            btnClear.BackColor = SystemColors.GradientActiveCaption;
-            btnClear.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnClear.ForeColor = SystemColors.ControlText;
-            btnClear.Location = new Point(235, 457);
-            btnClear.Name = "btnClear";
-            btnClear.Size = new Size(143, 30);
-            btnClear.TabIndex = 45;
-            btnClear.Text = "CLEAR";
-            btnClear.UseVisualStyleBackColor = false;
-            btnClear.Click += btnClear_Click;
+            btnCheck.BackColor = SystemColors.GradientActiveCaption;
+            btnCheck.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCheck.ForeColor = SystemColors.ControlText;
+            btnCheck.Location = new Point(235, 457);
+            btnCheck.Name = "btnCheck";
+            btnCheck.Size = new Size(143, 30);
+            btnCheck.TabIndex = 45;
+            btnCheck.Text = "CHECK";
+            btnCheck.UseVisualStyleBackColor = false;
+            btnCheck.Click += btnCheck_Click;
+            // 
+            // btnCheckClient
+            // 
+            btnCheckClient.BackColor = SystemColors.GradientActiveCaption;
+            btnCheckClient.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnCheckClient.ForeColor = SystemColors.ControlText;
+            btnCheckClient.Location = new Point(418, 91);
+            btnCheckClient.Name = "btnCheckClient";
+            btnCheckClient.Size = new Size(73, 30);
+            btnCheckClient.TabIndex = 46;
+            btnCheckClient.Text = "CHECK";
+            btnCheckClient.UseVisualStyleBackColor = false;
+            btnCheckClient.Visible = false;
+            btnCheckClient.Click += btnCheckClient_Click;
             // 
             // CONSULTATIONFORM
             // 
@@ -242,14 +257,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(592, 513);
-            Controls.Add(btnClear);
+            Controls.Add(btnCheckClient);
+            Controls.Add(btnCheck);
             Controls.Add(txtboxMedHistory);
             Controls.Add(txtboxBirthdate);
             Controls.Add(txtboxGender);
             Controls.Add(btnCancel);
             Controls.Add(btnCONFIRM);
             Controls.Add(lblGender);
-            Controls.Add(MedicalHistory);
+            Controls.Add(lblMedicalHistory);
             Controls.Add(txtboxMobileNum);
             Controls.Add(lblMobileNum);
             Controls.Add(lblBirthdate);
@@ -282,13 +298,14 @@
         private Label lblBirthdate;
         private TextBox txtboxMobileNum;
         private Label lblMobileNum;
-        private Label MedicalHistory;
+        private Label lblMedicalHistory;
         private Label lblGender;
         private Button btnCONFIRM;
         private Button btnCancel;
         private TextBox txtboxGender;
         private TextBox txtboxBirthdate;
         private TextBox txtboxMedHistory;
-        private Button btnClear;
+        private Button btnCheck;
+        private Button btnCheckClient;
     }
 }
