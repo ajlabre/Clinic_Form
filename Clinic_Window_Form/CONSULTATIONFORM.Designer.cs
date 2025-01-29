@@ -49,6 +49,7 @@
             txtboxMedHistory = new TextBox();
             btnCheck = new Button();
             btnCheckClient = new Button();
+            btnclear = new Button();
             ((System.ComponentModel.ISupportInitialize)ClinicImage).BeginInit();
             SuspendLayout();
             // 
@@ -229,9 +230,9 @@
             btnCheck.BackColor = SystemColors.GradientActiveCaption;
             btnCheck.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnCheck.ForeColor = SystemColors.ControlText;
-            btnCheck.Location = new Point(235, 457);
+            btnCheck.Location = new Point(197, 457);
             btnCheck.Name = "btnCheck";
-            btnCheck.Size = new Size(143, 30);
+            btnCheck.Size = new Size(87, 30);
             btnCheck.TabIndex = 45;
             btnCheck.Text = "CHECK";
             btnCheck.UseVisualStyleBackColor = false;
@@ -251,12 +252,26 @@
             btnCheckClient.Visible = false;
             btnCheckClient.Click += btnCheckClient_Click;
             // 
+            // btnclear
+            // 
+            btnclear.BackColor = SystemColors.GradientActiveCaption;
+            btnclear.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnclear.ForeColor = SystemColors.ControlText;
+            btnclear.Location = new Point(314, 457);
+            btnclear.Name = "btnclear";
+            btnclear.Size = new Size(89, 30);
+            btnclear.TabIndex = 47;
+            btnclear.Text = "CLEAR";
+            btnclear.UseVisualStyleBackColor = false;
+            btnclear.Click += btnclear_Click;
+            // 
             // CONSULTATIONFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(592, 513);
+            Controls.Add(btnclear);
             Controls.Add(btnCheckClient);
             Controls.Add(btnCheck);
             Controls.Add(txtboxMedHistory);
@@ -307,5 +322,6 @@
         private TextBox txtboxMedHistory;
         private Button btnCheck;
         private Button btnCheckClient;
+        private Button btnclear;
     }
 }

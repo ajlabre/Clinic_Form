@@ -90,5 +90,16 @@ namespace Clinic_Window_Form
             }
 
         }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            txtboxFullName.Clear();
+            txtboxAddress.Clear();
+            txtboxGender.Clear();
+            txtboxEmailAdd.Clear();
+            txtboxBirthdate.Clear();
+            txtboxMobileNum.Clear();
+            txtboxMedHistory.Clear();
+        }
     }
 }
