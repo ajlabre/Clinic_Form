@@ -138,7 +138,7 @@ namespace clinic_form
         }
         public static bool ViewClient()
         {
-            Console.Write("Search client: "); 
+            Console.Write("Search client: ");
             string toSearch = Console.ReadLine();
 
             return ClinicManage.ViewClient(toSearch);
@@ -150,9 +150,14 @@ namespace clinic_form
             //        Console.WriteLine("Name: " + ClinicManage.name[i]);
             //        Console.WriteLine("Address: " + ClinicManage.address[i]);
             //        Console.WriteLine("Birthdate: " + ClinicManage.bdate[i]);
+            //        Console.WriteLine("Gender: " + ClinicManage.gender);
+            //        Console.WriteLine("Email: " + ClinicManage.email[i]);
+            //        Console.WriteLine("Mobile Number: " + ClinicManage.mobnum[i]);
+            //        Console.WriteLine("Medical History: " + ClinicManage.medhistory[i]);
             //    }
 
-                }
+            //}
+        }
 
         public static bool ViewAdmin()
         {
